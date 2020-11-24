@@ -20,12 +20,15 @@ codes for Larger-Context Tagging
 
 The datasets utilized in our paper including:
 
-#### (1) Named Entity Recognition (NER)
+### (1) Named Entity Recognition (NER)
 - CoNLL-2003 (in this repository.)
 - OntoNotes 5.0 (The domains we utilized in the paper: WB, MZ, BC, BN, TC, NW.) (Yor can download from [LDC](https://catalog.ldc.upenn.edu/LDC2013T19) )
 
 ### (2) Chinese Word Segmentation (CWS)
-- CITYU, PKU, NCC, and SXU
+- CITYU 
+- PKU
+- NCC
+- SXU
 
 ### (3) Chunk
 - CoNLL-2000
