@@ -1,0 +1,6 @@
+# corpus type: conll03
+
+# holistic result 
+model_name: sent_long result: 91.49
+model_name: sent_1 result: 90.77
+

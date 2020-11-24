@@ -1,0 +1,58 @@
+CUDA_VISIBLE_DEVICES=5 nohup python run_ner.py --data_dir=data/notebn/ --bert_model=bert-base-cased --task_name=ner --output_dir=output/notebn_ner/ --max_seq_length=128 --do_train --num_train_epochs 20 --do_eval --warmup_proportion=0.4 >logs/notebn_bert_0831_1000.txt &
+CUDA_VISIBLE_DEVICES=5 nohup python run_ner.py --data_dir=data/notebn/ --bert_model=bert-base-cased --task_name=ner --output_dir=output/notebn_ner/ --max_seq_length=128 --do_train --num_train_epochs 20 --do_eval --warmup_proportion=0.4 >logs/notebn_bert_0831_1000.txt &
+
+CUDA_VISIBLE_DEVICES=5 python run_ner.py --data_dir=data/conll03/ --bert_model=bert-base-cased --task_name=ner --output_dir=out_test/ --max_seq_length=128 --do_train --num_train_epochs 1 --do_eval --warmup_proportion=0.4 >logs/conll03_test_20200109_1239.txt &
+
+# 2020. 0109 num_sent=5
+CUDA_VISIBLE_DEVICES=3 nohup python main.py --data_dir=data/conll03/ --bert_model=bert-base-cased --task_name=ner --output_dir=output/conll03-numtr5-maxwords128/ --max_seq_length=128 --do_train --num_train_epochs 5 --do_eval --warmup_proportion=0.4 >logs/conll03_5sent_5epoch_maxwords128_test_20200109_1548.txt &
+
+CUDA_VISIBLE_DEVICES=4 nohup python main.py --data_dir=data/conll03/ --bert_model=bert-base-cased --task_name=ner --output_dir=output/conll03-numtr5-maxwords256/ --max_seq_length=256 --do_train --num_train_epochs 5 --do_eval --warmup_proportion=0.4 >logs/conll03_5sent_5epoch_maxwords256_test_20200109_1548.txt &
+
+CUDA_VISIBLE_DEVICES=5 nohup python main.py --data_dir=data/conll03/ --bert_model=bert-base-cased --task_name=ner --output_dir=output/conll03-numtr5-maxwords512/ --max_seq_length=512 --do_train --num_train_epochs 5 --do_eval --warmup_proportion=0.4 >logs/conll03_5sent_5epoch_maxwords512_test_20200109_1548.txt &
+
+# 2020. 0109 num_sent=3
+CUDA_VISIBLE_DEVICES=3 nohup python main.py --splitType=num_sentence --value=3 --data_dir=data/conll03/ --bert_model=bert-base-cased --task_name=ner --output_dir=output/conll03-numtr3-maxwords128/ --max_seq_length=128 --do_train --num_train_epochs 5 --do_eval --warmup_proportion=0.4 >logs/conll03_3sent_5epoch_maxwords128_test_20200109_1651.txt &
+
+CUDA_VISIBLE_DEVICES=4 nohup python main.py --splitType=num_sentence --value=3 --data_dir=data/conll03/ --bert_model=bert-base-cased --task_name=ner --output_dir=output/conll03-numtr3-maxwords256/ --max_seq_length=256 --do_train --num_train_epochs 5 --do_eval --warmup_proportion=0.4 >logs/conll03_3sent_5epoch_maxwords256_test_20200109_1652.txt &
+
+CUDA_VISIBLE_DEVICES=5 nohup python main.py --splitType=num_sentence --value=3 --data_dir=data/conll03/ --bert_model=bert-base-cased --task_name=ner --output_dir=output/conll03-numtr3-maxwords512/ --max_seq_length=512 --do_train --num_train_epochs 5 --do_eval --warmup_proportion=0.4 >logs/conll03_3sent_5epoch_maxwords512_test_20200109_1653.txt &
+
+CUDA_VISIBLE_DEVICES=5 nohup python main.py --splitType=num_sentence --value=1 --data_dir=data/conll03/ --bert_model=bert-base-cased --task_name=ner --output_dir=output/conll03-numtr1-maxwords128/ --max_seq_length=128 --do_train --num_train_epochs 5 --do_eval --warmup_proportion=0.4 >logs/conll03_1sent_5epoch_maxwords128_test_20200109_1654.txt &
+
+
+
+
+
+
+# 2020. 0109 num_sent=7 device=5-->4
+CUDA_VISIBLE_DEVICES=3 nohup python main.py --splitType=num_sentence --value=7 --data_dir=data/conll03/ --bert_model=bert-base-cased --task_name=ner --output_dir=output/conll03-numtr7-maxwords128/ --max_seq_length=128 --do_train --num_train_epochs 5 --do_eval --warmup_proportion=0.4 >logs/conll03_7sent_5epoch_maxwords128_test_20200109_1751.txt &
+
+CUDA_VISIBLE_DEVICES=4 nohup python main.py --splitType=num_sentence --value=7 --data_dir=data/conll03/ --bert_model=bert-base-cased --task_name=ner --output_dir=output/conll03-numtr7-maxwords256/ --max_seq_length=256 --do_train --num_train_epochs 5 --do_eval --warmup_proportion=0.4 >logs/conll03_7sent_5epoch_maxwords256_test_20200109_1752.txt &
+
+CUDA_VISIBLE_DEVICES=2 nohup python main.py --splitType=num_sentence --value=7 --data_dir=data/conll03/ --bert_model=bert-base-cased --task_name=ner --output_dir=output/conll03-numtr7-maxwords512/ --max_seq_length=512 --do_train --num_train_epochs 5 --do_eval --warmup_proportion=0.4 >logs/conll03_7sent_5epoch_maxwords512_test_20200109_1753.txt &
+
+CUDA_VISIBLE_DEVICES=0 nohup python main.py --splitType=num_sentence --value=5 --data_dir=data/conll03/ --bert_model=bert-base-cased --task_name=ner --output_dir=output/conll03-numtr5-maxwords384/ --max_seq_length=384 --do_train --num_train_epochs 5 --do_eval --warmup_proportion=0.4 >logs/conll03_5sent_5epoch_maxwords384_test_20200109_1803.txt &
+CUDA_VISIBLE_DEVICES=7 nohup python main.py --splitType=num_sentence --value=5 --data_dir=data/conll03/ --bert_model=bert-base-cased --task_name=ner --output_dir=output/conll03-numtr5-maxwords512_epoch7/ --max_seq_length=512 --do_train --num_train_epochs 7 --do_eval --warmup_proportion=0.4 >logs/conll03_5sent_7epoch_maxwords512_test_20200109_1804.txt &
+CUDA_VISIBLE_DEVICES=1 nohup python main.py --splitType=num_sentence --value=5 --data_dir=data/conll03/ --bert_model=bert-base-cased --task_name=ner --output_dir=output/conll03-numtr5-maxwords512_epoch10/ --max_seq_length=512 --do_train --num_train_epochs 10 --do_eval --warmup_proportion=0.4 >logs/conll03_5sent_10epoch_maxwords512_test_20200109_1805.txt &
+CUDA_VISIBLE_DEVICES=6 nohup python main.py --splitType=num_sentence --value=4 --data_dir=data/conll03/ --bert_model=bert-base-cased --task_name=ner --output_dir=output/conll03-numtr4-maxwords512/ --max_seq_length=512 --do_train --num_train_epochs 5 --do_eval --warmup_proportion=0.4 >logs/conll03_4sent_5epoch_maxwords512_test_20200109_1806.txt &
+
+
+
+
+# 2020. 0109 splitType:num_word
+CUDA_VISIBLE_DEVICES=0 nohup python main.py --splitType=length --value=126 --data_dir=data/conll03/ --bert_model=bert-base-cased --task_name=ner --output_dir=output/conll03-len126-maxwords128/ --max_seq_length=128 --do_train --num_train_epochs 5 --do_eval --warmup_proportion=0.4 >logs/conll03_len126_5epoch_maxwords128_test_20200109_1655.txt &
+
+CUDA_VISIBLE_DEVICES=1 nohup python main.py --splitType=length --value=254 --data_dir=data/conll03/ --bert_model=bert-base-cased --task_name=ner --output_dir=output/conll03-len254-maxwords256/ --max_seq_length=256 --do_train --num_train_epochs 5 --do_eval --warmup_proportion=0.4 >logs/conll03_len254_5epoch_maxwords256_test_20200109_1656.txt &
+
+CUDA_VISIBLE_DEVICES=2 nohup python main.py --splitType=length --value=510 --data_dir=data/conll03/ --bert_model=bert-base-cased --task_name=ner --output_dir=output/conll03-len510-maxwords512/ --max_seq_length=512 --do_train --num_train_epochs 5 --do_eval --warmup_proportion=0.4 >logs/conll03_len510_5epoch_maxwords512_test_20200109_1657.txt &
+
+
+
+
+
+
+
+
+
+
+

@@ -1,0 +1,1249 @@
+no display found. Using non-interactive Agg backend
+fn_test_results ner_results/longsent_results/connl03_CbertWnon_snonMlp_sent1_40900668_9077.txt
+corpus_type connl03
+tag_sequences_train ['B-ORG', 'O', 'B-MISC', 'O', 'O', 'O', 'B-MISC', 'O', 'O', 'B-PER', 'I-PER', 'B-LOC', 'O', 'O', 'B-ORG', 'I-ORG', 'O', 'O', 'O', 'O', 'O', 'O', 'B-MISC', 'O', 'O', 'O', 'O', 'O', 'B-MISC', 'O', 'O', 'O', 'O', 'O', 'O', 'O', 'O', 'O', 'O', 'O', 'O', 'O', 'O', 'B-LOC', 'O', 'O', 'O', 'O', 'B-ORG', 'I-ORG', 'O', 'O', 'O', 'B-PER', 'I-PER', 'O', 'O', 'O', 'O', 'O', 'O', 'O', 'O', 'O', 'O', 'O', 'B-LOC', 'O', 'O', 'O', 'O', 'O', 'O', 'O', 'O', 'O', 'O', 'O', 'O', 'O']
+word_sequences_train ['EU', 'rejects', 'German', 'call', 'to', 'boycott', 'British', 'lamb', '.', 'Peter', 'Blackburn', 'BRUSSELS', '1996-08-22', 'The', 'European', 'Commission', 'said', 'on', 'Thursday', 'it', 'disagreed', 'with', 'German', 'advice', 'to', 'consumers', 'to', 'shun', 'British', 'lamb', 'until', 'scientists', 'determine', 'whether', 'mad', 'cow', 'disease', 'can', 'be', 'transmitted', 'to', 'sheep', '.', 'Germany', "'s", 'representative', 'to', 'the', 'European', 'Union', "'s", 'veterinary', 'committee', 'Werner', 'Zwingmann', 'said', 'on', 'Wednesday', 'consumers', 'should', 'buy', 'sheepmeat', 'from', 'countries', 'other', 'than', 'Britain', 'until', 'the', 'scientific', 'advice', 'was', 'clearer', '.', '"', 'We', 'do', "n't", 'support', 'any']
+corpus_type connl03
+mean_test_length: 13.447726614538082
+corpus_type connl03
+corpus_type connl03
+mode  
+corpus_type connl03
+load the hard dictionary of entity token in test set...
+load the hard dictionary of entity span in test set...
+load the hard dictionary of entity token in test set...
+load the hard dictionary of entity span in test set...
+type,total_ball entity 5648
+total_spanfreq_entity 0
+type,total_ball entity 5648
+total_spanfreq_entity 0
+type,total_ball entity 5648
+total_spanfreq_entity 0
+type,total_ball token 8112
+avg_pile_balls: 1518.5
+type,total_ball entity 5648
+total_spanfreq_entity 0
+type,total_ball token 8112
+total_spanfreq_entity 0
+type,total_ball entity 5648
+total_spanfreq_entity 0
+oovDensity_break_value {'(0.0,0.000000]': 3971, '(0.000000,0.066667]': 562, '(0.066667,0.203125]': 568, '(0.203125,1.000000]': 547}
+sentLen_break_value {'(0.0,7.000000]': 1485, '(7.000000,16.000000]': 1417, '(16.000000,31.000000]': 1457, '(31.000000,124.000000]': 1289}
+tokenDensity_break_value {'(0.0,0.150000]': 1416, '(0.150000,0.257143]': 1411, '(0.257143,0.428571]': 1556, '(0.428571,1.000000]': 1265}
+rhoToken_break_value {'(0.0,0.000000]': 2726, '(0.0,0.667000]': 1536, '(0.667000,0.993000]': 1501, '(0.999999,1.000000]': 2349}
+rhoEntity_break_value {'(0.0,0.000000]': 2583, '(0.000000,0.944000]': 1029, '(0.944000,1.000000]': 2036}
+tokenFreqRate_break_value {'(0.0,0.000000]': 2817, '(0.000000,0.003000]': 1968, '(0.003000,0.014000]': 1742, '(0.014000,1.000000]': 1585}
+spanFreqRate_break_value {'(0.0,0.000000]': 2284, '(0.000000,0.032000]': 1185, '(0.032000,0.162000]': 1100, '(0.162000,1.000000]': 1079}
+low_bounds [0.0, 0.15, 0.257143, 0.428571]
+up_bounds [0.15, 0.257143, 0.428571, 1.0]
+p_ranges ['(0.0,0.150000]', '(0.150000,0.257143]', '(0.257143,0.428571]', '(0.428571,1.000000]']
+total_count_entity 5648
+low_bounds [0.0, 0.0, 0.066667, 0.203125]
+up_bounds [0.0, 0.066667, 0.203125, 1.0]
+p_ranges ['(0.0,0.000000]', '(0.000000,0.066667]', '(0.066667,0.203125]', '(0.203125,1.000000]']
+total_count_entity 5648
+low_bounds [0.0, 7.0, 16.0, 31.0]
+up_bounds [7.0, 16.0, 31.0, 124.0]
+p_ranges ['(0.0,7.000000]', '(7.000000,16.000000]', '(16.000000,31.000000]', '(31.000000,124.000000]']
+total_count_entity 5648
+low_bounds [0.0, 0.0, 0.032, 0.162]
+up_bounds [0.0, 0.032, 0.162, 1.0]
+p_ranges ['(0.0,0.000000]', '(0.000000,0.032000]', '(0.032000,0.162000]', '(0.162000,1.000000]']
+total_count_entity 5648
+entity_freq_uniform
+p_ranges_rhoToken ['(0.0,0.000000]', '(0.000000,0.032000]', '(0.032000,0.162000]', '(0.162000,1.000000]']
+low_bounds [0.0, 0.0, 0.667, 0.999999]
+up_bounds [0.0, 0.667, 0.993, 1.0]
+p_ranges ['(0.0,0.000000]', '(0.0,0.667000]', '(0.667000,0.993000]', '(0.999999,1.000000]']
+total_count_entity 8112
+low_bounds [0.0, 0.0, 0.003, 0.014]
+up_bounds [0.0, 0.003, 0.014, 1.0]
+p_ranges ['(0.0,0.000000]', '(0.000000,0.003000]', '(0.003000,0.014000]', '(0.014000,1.000000]']
+total_count_entity 8112
+pos_block_acc {'NNP\n6969': '91.69', 'NNPS\n144': '91.67', 'JJ\n411': '92.21', 'NN\n211': '82.94', 'VB\n42': '83.33', 'CD\n12': '66.67', 'NNS\n82': '86.59', 'POS\n11': '100.00', 'RB\n36': '100.00', 'DT\n17': '88.24', 'FW\n16': '100.00', 'VBG\n24': '91.67', 'PRP\n17': '35.29', 'TO\n11': '100.00', 'RP\n10': '80.00', 'VBN\n10': '90.00', 'IN\n42': '92.86', 'CC\n16': '68.75'}
+letter_block_acc {'title\n6691': '92.74', 'lower\n87': '82.76', 'upper\n1238': '84.09', 'digit\n8': '62.50', 'other\n88': '87.50'}
+num phoToken_block value_list 2726
+num phoToken_block value_list 1536
+num phoToken_block value_list 1501
+num phoToken_block value_list 2349
+phoToken_block_acc {'(0.0,0.000000]\n2726': '86.54', '(0.0,0.667000]\n1536': '87.17', '(0.667000,0.993000]\n1501': '95.20', '(0.999999,1.000000]\n2349': '96.76'}
+len(value_list) 2817
+len(value_list) 1968
+len(value_list) 1742
+len(value_list) 1585
+tokenFreq_block_acc {'(0.0,0.000000]\n2817': '90.52', '(0.000000,0.003000]\n1968': '90.75', '(0.003000,0.014000]\n1742': '93.00', '(0.014000,1.000000]\n1585': '91.10'}
+model_name CbertWnon_snonMlp_9077
+####################################################
+fn_test_results ner_results/longsent_results/connl03_CbertWnon_snonMlp_sent10_09906966_long2short_9108.txt
+corpus_type connl03
+tag_sequences_train ['B-ORG', 'O', 'B-MISC', 'O', 'O', 'O', 'B-MISC', 'O', 'O', 'B-PER', 'I-PER', 'B-LOC', 'O', 'O', 'B-ORG', 'I-ORG', 'O', 'O', 'O', 'O', 'O', 'O', 'B-MISC', 'O', 'O', 'O', 'O', 'O', 'B-MISC', 'O', 'O', 'O', 'O', 'O', 'O', 'O', 'O', 'O', 'O', 'O', 'O', 'O', 'O', 'B-LOC', 'O', 'O', 'O', 'O', 'B-ORG', 'I-ORG', 'O', 'O', 'O', 'B-PER', 'I-PER', 'O', 'O', 'O', 'O', 'O', 'O', 'O', 'O', 'O', 'O', 'O', 'B-LOC', 'O', 'O', 'O', 'O', 'O', 'O', 'O', 'O', 'O', 'O', 'O', 'O', 'O']
+word_sequences_train ['EU', 'rejects', 'German', 'call', 'to', 'boycott', 'British', 'lamb', '.', 'Peter', 'Blackburn', 'BRUSSELS', '1996-08-22', 'The', 'European', 'Commission', 'said', 'on', 'Thursday', 'it', 'disagreed', 'with', 'German', 'advice', 'to', 'consumers', 'to', 'shun', 'British', 'lamb', 'until', 'scientists', 'determine', 'whether', 'mad', 'cow', 'disease', 'can', 'be', 'transmitted', 'to', 'sheep', '.', 'Germany', "'s", 'representative', 'to', 'the', 'European', 'Union', "'s", 'veterinary', 'committee', 'Werner', 'Zwingmann', 'said', 'on', 'Wednesday', 'consumers', 'should', 'buy', 'sheepmeat', 'from', 'countries', 'other', 'than', 'Britain', 'until', 'the', 'scientific', 'advice', 'was', 'clearer', '.', '"', 'We', 'do', "n't", 'support', 'any']
+corpus_type connl03
+mean_test_length: 13.447726614538082
+corpus_type connl03
+corpus_type connl03
+mode  
+corpus_type connl03
+load the hard dictionary of entity token in test set...
+load the hard dictionary of entity span in test set...
+load the hard dictionary of entity token in test set...
+load the hard dictionary of entity span in test set...
+type,total_ball entity 5648
+total_spanfreq_entity 0
+type,total_ball entity 5648
+total_spanfreq_entity 0
+type,total_ball entity 5648
+total_spanfreq_entity 0
+type,total_ball token 8112
+avg_pile_balls: 1518.5
+type,total_ball entity 5648
+total_spanfreq_entity 0
+type,total_ball token 8112
+total_spanfreq_entity 0
+type,total_ball entity 5648
+total_spanfreq_entity 0
+oovDensity_break_value {'(0.0,0.000000]': 3971, '(0.000000,0.066667]': 562, '(0.066667,0.203125]': 568, '(0.203125,1.000000]': 547}
+sentLen_break_value {'(0.0,7.000000]': 1485, '(7.000000,16.000000]': 1417, '(16.000000,31.000000]': 1457, '(31.000000,124.000000]': 1289}
+tokenDensity_break_value {'(0.0,0.150000]': 1416, '(0.150000,0.257143]': 1411, '(0.257143,0.428571]': 1556, '(0.428571,1.000000]': 1265}
+rhoToken_break_value {'(0.0,0.000000]': 2726, '(0.0,0.667000]': 1536, '(0.667000,0.993000]': 1501, '(0.999999,1.000000]': 2349}
+rhoEntity_break_value {'(0.0,0.000000]': 2583, '(0.000000,0.944000]': 1029, '(0.944000,1.000000]': 2036}
+tokenFreqRate_break_value {'(0.0,0.000000]': 2817, '(0.000000,0.003000]': 1968, '(0.003000,0.014000]': 1742, '(0.014000,1.000000]': 1585}
+spanFreqRate_break_value {'(0.0,0.000000]': 2284, '(0.000000,0.032000]': 1185, '(0.032000,0.162000]': 1100, '(0.162000,1.000000]': 1079}
+low_bounds [0.0, 0.15, 0.257143, 0.428571]
+up_bounds [0.15, 0.257143, 0.428571, 1.0]
+p_ranges ['(0.0,0.150000]', '(0.150000,0.257143]', '(0.257143,0.428571]', '(0.428571,1.000000]']
+total_count_entity 5648
+low_bounds [0.0, 0.0, 0.066667, 0.203125]
+up_bounds [0.0, 0.066667, 0.203125, 1.0]
+p_ranges ['(0.0,0.000000]', '(0.000000,0.066667]', '(0.066667,0.203125]', '(0.203125,1.000000]']
+total_count_entity 5648
+low_bounds [0.0, 7.0, 16.0, 31.0]
+up_bounds [7.0, 16.0, 31.0, 124.0]
+p_ranges ['(0.0,7.000000]', '(7.000000,16.000000]', '(16.000000,31.000000]', '(31.000000,124.000000]']
+total_count_entity 5648
+low_bounds [0.0, 0.0, 0.032, 0.162]
+up_bounds [0.0, 0.032, 0.162, 1.0]
+p_ranges ['(0.0,0.000000]', '(0.000000,0.032000]', '(0.032000,0.162000]', '(0.162000,1.000000]']
+total_count_entity 5648
+entity_freq_uniform
+p_ranges_rhoToken ['(0.0,0.000000]', '(0.000000,0.032000]', '(0.032000,0.162000]', '(0.162000,1.000000]']
+low_bounds [0.0, 0.0, 0.667, 0.999999]
+up_bounds [0.0, 0.667, 0.993, 1.0]
+p_ranges ['(0.0,0.000000]', '(0.0,0.667000]', '(0.667000,0.993000]', '(0.999999,1.000000]']
+total_count_entity 8112
+low_bounds [0.0, 0.0, 0.003, 0.014]
+up_bounds [0.0, 0.003, 0.014, 1.0]
+p_ranges ['(0.0,0.000000]', '(0.000000,0.003000]', '(0.003000,0.014000]', '(0.014000,1.000000]']
+total_count_entity 8112
+pos_block_acc {'NNP\n6969': '92.91', 'NNPS\n144': '94.44', 'JJ\n411': '92.21', 'NN\n211': '84.36', 'VB\n42': '88.10', 'CD\n12': '66.67', 'NNS\n82': '90.24', 'POS\n11': '100.00', 'RB\n36': '100.00', 'DT\n17': '94.12', 'FW\n16': '93.75', 'VBG\n24': '95.83', 'PRP\n17': '35.29', 'TO\n11': '100.00', 'RP\n10': '80.00', 'VBN\n10': '90.00', 'IN\n42': '95.24', 'CC\n16': '81.25'}
+letter_block_acc {'title\n6691': '94.26', 'lower\n87': '81.61', 'upper\n1238': '84.57', 'digit\n8': '62.50', 'other\n88': '84.09'}
+num phoToken_block value_list 2726
+num phoToken_block value_list 1536
+num phoToken_block value_list 1501
+num phoToken_block value_list 2349
+phoToken_block_acc {'(0.0,0.000000]\n2726': '89.29', '(0.0,0.667000]\n1536': '88.35', '(0.667000,0.993000]\n1501': '95.20', '(0.999999,1.000000]\n2349': '97.23'}
+len(value_list) 2817
+len(value_list) 1968
+len(value_list) 1742
+len(value_list) 1585
+tokenFreq_block_acc {'(0.0,0.000000]\n2817': '92.44', '(0.000000,0.003000]\n1968': '92.73', '(0.003000,0.014000]\n1742': '93.11', '(0.014000,1.000000]\n1585': '91.67'}
+model_name CbertWnonsnonMlp_longsent_nsent10_9108
+####################################################
+corpus_type: connl03
+###########################____select_buckets____#######################
+compare conll03_CbertWnon_snonMlp_sent10, model is: conll03_CbertWnon_snonMlp_sent1, conll03_CbertWnon_snonMlp_sent10...
+midx1, midx2 1 0
+seltAlwaysGood_m1: CbertWnonsnonMlp_longsent
+seltAlwaysGood_m2: CbertWnon_snonMlp
+model_names: ['CbertWnon_snonMlp_9077', 'CbertWnonsnonMlp_longsent_nsent10_9108']
+len(model1) 8
+metric_names: R-eDen
+list1:  ['89.07', '93.03', '90.65', '92.93']
+list2:  ['88.01', '91.66', '89.80', '93.13']
+
+detas_subs: [0.012044085899329485, 0.014946541566659444, 0.00946547884187092, -0.0021475357027809366]
+
+metric_names: R-oov
+list1:  ['91.96', '90.08', '87.45', '93.77']
+list2:  ['91.10', '88.69', '87.50', '93.90']
+
+detas_subs: [0.009440175631174528, 0.01567256736948924, -0.0005714285714285389, -0.001384451544196056]
+
+metric_names: R-sLen
+list1:  ['91.24', '89.21', '92.81', '92.82']
+list2:  ['92.08', '88.87', '90.19', '91.98']
+
+detas_subs: [-0.009122502172024365, 0.0038258129852592458, 0.029049783789777187, 0.009132420091324082]
+
+metric_names: MF-et
+list1:  ['86.08', '82.55', '95.78', '96.86']
+list2:  ['85.24', '84.00', '96.04', '96.75']
+
+detas_subs: [0.00985452839042707, -0.017261904761904794, -0.00270720533111209, 0.0011369509043927589]
+
+metric_names: F-ent
+list1:  ['86.06', '93.48', '94.73', '95.72']
+list2:  ['85.77', '92.51', '94.75', '95.78']
+
+detas_subs: [0.0033811355951965287, 0.010485352934817845, -0.00021108179419520866, -0.0006264355815410553]
+
+metric_names: MF-tt
+list1:  ['89.29', '88.35', '95.20', '97.23']
+list2:  ['86.54', '87.17', '95.20', '96.76']
+
+detas_subs: [0.03177721284954934, 0.013536767236434467, 0.0, 0.0048573790822653866]
+
+metric_names: F-tok
+list1:  ['92.44', '92.73', '93.11', '91.67']
+list2:  ['90.52', '90.75', '93.00', '91.10']
+
+detas_subs: [0.02121078214759171, 0.02181818181818186, 0.0011827956989247251, 0.006256860592755296]
+
+metric_names: R-eLen
+list1:  ['90.72', '92.62', '85.71', '86.36']
+list2:  ['90.51', '92.10', '86.01', '86.36']
+
+detas_subs: [0.002320185614849119, 0.005646036916395334, -0.003487966515521583, 0.0]
+
+min_sml_str: Cbert_long2short_min_sml_str_['XL','XL','XS','S','XL','Y','Y','L']
+max_sml_str: Cbert_long2short_max_sml_str_['S','S','L','XS','S','XS','S','S']
+fn_test_results ner_results/wnut16_CbertWnon_snonMlp_4250.txt
+corpus_type wnut16
+tag_sequences_train ['O', 'O', 'O', 'O', 'O', 'O', 'O', 'O', 'O', 'O', 'O', 'O', 'O', 'O', 'O', 'O', 'O', 'B-loc', 'O', 'O', 'O', 'O', 'O', 'O', 'O', 'B-facility', 'I-facility', 'O', 'O', 'O', 'O', 'O', 'O', 'O', 'O', 'O', 'O', 'O', 'O', 'O', 'O', 'B-facility', 'I-facility', 'O', 'O', 'O', 'B-movie', 'I-movie', 'O', 'O', 'O', 'B-loc', 'O', 'O', 'O', 'O', 'O', 'O', 'O', 'O', 'O', 'O', 'O', 'O', 'O', 'O', 'O', 'O', 'O', 'O', 'O', 'O', 'O', 'O', 'O', 'O', 'O', 'O', 'O', 'O']
+word_sequences_train ['@SammieLynnsMom', '@tg10781', 'they', 'will', 'be', 'all', 'done', 'by', 'Sunday', 'trust', 'me', '*wink*', 'Made', 'it', 'back', 'home', 'to', 'GA', '.', 'It', 'sucks', 'not', 'to', 'be', 'at', 'Disney', 'world', ',', 'but', 'its', 'good', 'to', 'be', 'home', '.', 'Time', 'to', 'start', 'planning', 'the', 'next', 'Disney', 'World', 'trip', '.', "'", 'Breaking', 'Dawn', "'", 'Returns', 'to', 'Vancouver', 'on', 'January', '11th', 'http://bit.ly/dbDMs8', '@ls_n', 'perhaps', ',', 'but', 'folks', 'may', 'find', 'something', 'in', 'the', 'gallery', 'that', 'is', 'helpful', 'in', 'their', 'day-to-day', 'work', 'as', 'well', '.', 'Even', 'just', 'to']
+corpus_type wnut16
+mean_test_length: 16.08
+corpus_type wnut16
+corpus_type wnut16
+mode  
+corpus_type wnut16
+load the hard dictionary of entity token in test set...
+load the hard dictionary of entity span in test set...
+load the hard dictionary of entity token in test set...
+load the hard dictionary of entity span in test set...
+type,total_ball entity 3473
+total_spanfreq_entity 0
+type,total_ball entity 3473
+total_spanfreq_entity 0
+type,total_ball entity 3473
+total_spanfreq_entity 0
+type,total_ball token 5955
+avg_pile_balls: 393.0
+type,total_ball entity 3473
+total_spanfreq_entity 0
+type,total_ball token 5955
+total_spanfreq_entity 0
+type,total_ball entity 3473
+total_spanfreq_entity 0
+oovDensity_break_value {'(0.0,0.074074]': 883, '(0.074074,0.120000]': 894, '(0.120000,0.190476]': 855, '(0.190476,1.000000]': 841}
+sentLen_break_value {'(0.0,15.000000]': 1013, '(15.000000,19.000000]': 824, '(19.000000,23.000000]': 978, '(23.000000,35.000000]': 658}
+tokenDensity_break_value {'(0.0,0.105263]': 885, '(0.105263,0.187500]': 869, '(0.187500,0.291667]': 866, '(0.291667,0.952381]': 853}
+rhoToken_break_value {'(0.0,0.000000]': 4673, '(0.0,0.091000]': 398, '(0.091000,0.920000]': 388, '(0.999999,1.000000]': 496}
+rhoEntity_break_value {'(0.0,0.000000]': 3016, '(0.000000,1.000000]': 457}
+tokenFreqRate_break_value {'(0.0,0.000000]': 3104, '(0.000000,0.002000]': 1156, '(0.002000,0.018000]': 864, '(0.018000,1.000000]': 831}
+spanFreqRate_break_value {'(0.0,0.000000]': 2784, '(0.000000,0.015000]': 328, '(0.015000,0.062000]': 201, '(0.062000,1.000000]': 160}
+low_bounds [0.0, 0.105263, 0.1875, 0.291667]
+up_bounds [0.105263, 0.1875, 0.291667, 0.952381]
+p_ranges ['(0.0,0.105263]', '(0.105263,0.187500]', '(0.187500,0.291667]', '(0.291667,0.952381]']
+total_count_entity 3473
+low_bounds [0.0, 0.074074, 0.12, 0.190476]
+up_bounds [0.074074, 0.12, 0.190476, 1.0]
+p_ranges ['(0.0,0.074074]', '(0.074074,0.120000]', '(0.120000,0.190476]', '(0.190476,1.000000]']
+total_count_entity 3473
+low_bounds [0.0, 15.0, 19.0, 23.0]
+up_bounds [15.0, 19.0, 23.0, 35.0]
+p_ranges ['(0.0,15.000000]', '(15.000000,19.000000]', '(19.000000,23.000000]', '(23.000000,35.000000]']
+total_count_entity 3473
+low_bounds [0.0, 0.0, 0.015, 0.062]
+up_bounds [0.0, 0.015, 0.062, 1.0]
+p_ranges ['(0.0,0.000000]', '(0.000000,0.015000]', '(0.015000,0.062000]', '(0.062000,1.000000]']
+total_count_entity 3473
+entity_freq_uniform
+p_ranges_rhoToken ['(0.0,0.000000]', '(0.000000,0.015000]', '(0.015000,0.062000]', '(0.062000,1.000000]']
+low_bounds [0.0, 0.0, 0.091, 0.999999]
+up_bounds [0.0, 0.091, 0.92, 1.0]
+p_ranges ['(0.0,0.000000]', '(0.0,0.091000]', '(0.091000,0.920000]', '(0.999999,1.000000]']
+total_count_entity 5955
+low_bounds [0.0, 0.0, 0.002, 0.018]
+up_bounds [0.0, 0.002, 0.018, 1.0]
+p_ranges ['(0.0,0.000000]', '(0.000000,0.002000]', '(0.002000,0.018000]', '(0.018000,1.000000]']
+total_count_entity 5955
+pos_block_acc {'New\n50': '60.00', 'Orleans\n33': '78.79', 'Mother\n17': '29.41', "'s\n52": '25.00', 'Day\n28': '39.29', 'The\n58': '18.97', 'Sun\n11': '18.18', 'Apple\n21': '14.29', 'Miami\n21': '76.19', 'Aaron\n10': '100.00', 'Alexis\n10': '100.00', 'Santa\n31': '51.61', 'Monica\n30': '50.00', 'College\n24': '29.17', '#Chattanooga\n11': '27.27', 'Christmas\n14': '64.29', '2015\n12': '0.00', 'Festival\n10': '40.00', 'San\n52': '90.38', 'Bernardino\n45': '95.56', 'Twitter\n28': '96.43', 'China\n19': '94.74', 'U.S.\n12': '25.00', 'of\n38': '15.79', 'FBI\n15': '13.33', 'CNN\n11': '81.82', 'Park\n10': '30.00', 'Fort\n24': '16.67', 'Hood\n24': '16.67', 'Bailey\n10': '0.00', 'May\n14': '14.29', 'Washington\n29': '58.62', 'Navy\n30': '60.00', 'Yard\n25': '72.00', 'Chicago\n16': '62.50', 'California\n19': '89.47', 'God\n13': '61.54', 'Kmart\n12': '100.00', 'Australia\n14': '100.00', 'High\n14': '14.29', 'School\n12': '0.00', 'Black\n11': '9.09', 'Friday\n12': '8.33', 'London\n11': '100.00', 'Marysville\n18': '33.33', 'Awards\n11': '36.36', 'Portland\n11': '72.73', 'Justin\n22': '9.09', 'UCLA\n10': '20.00', 'Health\n10': '10.00', '.\n38': '10.53', "'\n15": '26.67', 'Wendy\n13': '7.69', 'Virgo\n10': '0.00', 'the\n33': '9.09', '4th\n13': '7.69', 'Generation\n11': '0.00', 'Zendesk\n18': '44.44', 'Bieber\n11': '9.09', 'UK\n13': '38.46', 'TalkTalk\n33': '72.73', 'US\n17': '64.71', 'Muhammad\n14': '92.86', 'Youssef\n12': '100.00', 'Abdulazeez\n12': '100.00', '(\n11': '0.00', ')\n12': '0.00', 'Tumblr\n18': '33.33', 'Pinterest\n18': '44.44', 'I\n11': '0.00', 'Reuters\n10': '100.00', 'Snapchat\n39': '10.26', 'Russia\n13': '84.62', 'Los\n16': '68.75', 'Angeles\n18': '61.11', 'Love\n13': '0.00', 'Obama\n10': '100.00', 'Detroit\n20': '100.00', 'Chattanooga\n18': '94.44', 'July\n10': '10.00', '&amp;\n16': '0.00', ',\n13': '0.00', 'News\n21': '14.29'}
+letter_block_acc {'title\n4324': '45.79', 'lower\n433': '11.32', 'upper\n747': '20.21', 'digit\n57': '10.53', 'other\n394': '20.05'}
+num phoToken_block value_list 4673
+num phoToken_block value_list 398
+num phoToken_block value_list 388
+num phoToken_block value_list 496
+phoToken_block_acc {'(0.0,0.000000]\n4673': '32.42', '(0.0,0.091000]\n398': '28.89', '(0.091000,0.920000]\n388': '61.60', '(0.999999,1.000000]\n496': '79.84'}
+len(value_list) 3104
+len(value_list) 1156
+len(value_list) 864
+len(value_list) 831
+tokenFreq_block_acc {'(0.0,0.000000]\n3104': '38.34', '(0.000000,0.002000]\n1156': '49.31', '(0.002000,0.018000]\n864': '37.50', '(0.018000,1.000000]\n831': '21.78'}
+model_name CbertWnon_snonMlp_4250
+####################################################
+fn_test_results ner_results/longsent_results/wnut16_CbertWnon_snonMlp_sent3_83052630_long2short_4561.txt
+corpus_type wnut16
+tag_sequences_train ['O', 'O', 'O', 'O', 'O', 'O', 'O', 'O', 'O', 'O', 'O', 'O', 'O', 'O', 'O', 'O', 'O', 'B-loc', 'O', 'O', 'O', 'O', 'O', 'O', 'O', 'B-facility', 'I-facility', 'O', 'O', 'O', 'O', 'O', 'O', 'O', 'O', 'O', 'O', 'O', 'O', 'O', 'O', 'B-facility', 'I-facility', 'O', 'O', 'O', 'B-movie', 'I-movie', 'O', 'O', 'O', 'B-loc', 'O', 'O', 'O', 'O', 'O', 'O', 'O', 'O', 'O', 'O', 'O', 'O', 'O', 'O', 'O', 'O', 'O', 'O', 'O', 'O', 'O', 'O', 'O', 'O', 'O', 'O', 'O', 'O']
+word_sequences_train ['@SammieLynnsMom', '@tg10781', 'they', 'will', 'be', 'all', 'done', 'by', 'Sunday', 'trust', 'me', '*wink*', 'Made', 'it', 'back', 'home', 'to', 'GA', '.', 'It', 'sucks', 'not', 'to', 'be', 'at', 'Disney', 'world', ',', 'but', 'its', 'good', 'to', 'be', 'home', '.', 'Time', 'to', 'start', 'planning', 'the', 'next', 'Disney', 'World', 'trip', '.', "'", 'Breaking', 'Dawn', "'", 'Returns', 'to', 'Vancouver', 'on', 'January', '11th', 'http://bit.ly/dbDMs8', '@ls_n', 'perhaps', ',', 'but', 'folks', 'may', 'find', 'something', 'in', 'the', 'gallery', 'that', 'is', 'helpful', 'in', 'their', 'day-to-day', 'work', 'as', 'well', '.', 'Even', 'just', 'to']
+corpus_type wnut16
+mean_test_length: 16.08
+corpus_type wnut16
+corpus_type wnut16
+mode  
+corpus_type wnut16
+load the hard dictionary of entity token in test set...
+load the hard dictionary of entity span in test set...
+load the hard dictionary of entity token in test set...
+load the hard dictionary of entity span in test set...
+type,total_ball entity 3473
+total_spanfreq_entity 0
+type,total_ball entity 3473
+total_spanfreq_entity 0
+type,total_ball entity 3473
+total_spanfreq_entity 0
+type,total_ball token 5955
+avg_pile_balls: 393.0
+type,total_ball entity 3473
+total_spanfreq_entity 0
+type,total_ball token 5955
+total_spanfreq_entity 0
+type,total_ball entity 3473
+total_spanfreq_entity 0
+oovDensity_break_value {'(0.0,0.074074]': 883, '(0.074074,0.120000]': 894, '(0.120000,0.190476]': 855, '(0.190476,1.000000]': 841}
+sentLen_break_value {'(0.0,15.000000]': 1013, '(15.000000,19.000000]': 824, '(19.000000,23.000000]': 978, '(23.000000,35.000000]': 658}
+tokenDensity_break_value {'(0.0,0.105263]': 885, '(0.105263,0.187500]': 869, '(0.187500,0.291667]': 866, '(0.291667,0.952381]': 853}
+rhoToken_break_value {'(0.0,0.000000]': 4673, '(0.0,0.091000]': 398, '(0.091000,0.920000]': 388, '(0.999999,1.000000]': 496}
+rhoEntity_break_value {'(0.0,0.000000]': 3016, '(0.000000,1.000000]': 457}
+tokenFreqRate_break_value {'(0.0,0.000000]': 3104, '(0.000000,0.002000]': 1156, '(0.002000,0.018000]': 864, '(0.018000,1.000000]': 831}
+spanFreqRate_break_value {'(0.0,0.000000]': 2784, '(0.000000,0.015000]': 328, '(0.015000,0.062000]': 201, '(0.062000,1.000000]': 160}
+low_bounds [0.0, 0.105263, 0.1875, 0.291667]
+up_bounds [0.105263, 0.1875, 0.291667, 0.952381]
+p_ranges ['(0.0,0.105263]', '(0.105263,0.187500]', '(0.187500,0.291667]', '(0.291667,0.952381]']
+total_count_entity 3473
+low_bounds [0.0, 0.074074, 0.12, 0.190476]
+up_bounds [0.074074, 0.12, 0.190476, 1.0]
+p_ranges ['(0.0,0.074074]', '(0.074074,0.120000]', '(0.120000,0.190476]', '(0.190476,1.000000]']
+total_count_entity 3473
+low_bounds [0.0, 15.0, 19.0, 23.0]
+up_bounds [15.0, 19.0, 23.0, 35.0]
+p_ranges ['(0.0,15.000000]', '(15.000000,19.000000]', '(19.000000,23.000000]', '(23.000000,35.000000]']
+total_count_entity 3473
+low_bounds [0.0, 0.0, 0.015, 0.062]
+up_bounds [0.0, 0.015, 0.062, 1.0]
+p_ranges ['(0.0,0.000000]', '(0.000000,0.015000]', '(0.015000,0.062000]', '(0.062000,1.000000]']
+total_count_entity 3473
+entity_freq_uniform
+p_ranges_rhoToken ['(0.0,0.000000]', '(0.000000,0.015000]', '(0.015000,0.062000]', '(0.062000,1.000000]']
+low_bounds [0.0, 0.0, 0.091, 0.999999]
+up_bounds [0.0, 0.091, 0.92, 1.0]
+p_ranges ['(0.0,0.000000]', '(0.0,0.091000]', '(0.091000,0.920000]', '(0.999999,1.000000]']
+total_count_entity 5955
+low_bounds [0.0, 0.0, 0.002, 0.018]
+up_bounds [0.0, 0.002, 0.018, 1.0]
+p_ranges ['(0.0,0.000000]', '(0.000000,0.002000]', '(0.002000,0.018000]', '(0.018000,1.000000]']
+total_count_entity 5955
+pos_block_acc {'New\n50': '66.00', 'Orleans\n33': '81.82', 'Mother\n17': '82.35', "'s\n52": '44.23', 'Day\n28': '78.57', 'The\n58': '25.86', 'Sun\n11': '9.09', 'Apple\n21': '19.05', 'Miami\n21': '66.67', 'Aaron\n10': '100.00', 'Alexis\n10': '100.00', 'Santa\n31': '45.16', 'Monica\n30': '43.33', 'College\n24': '16.67', '#Chattanooga\n11': '36.36', 'Christmas\n14': '42.86', '2015\n12': '25.00', 'Festival\n10': '40.00', 'San\n52': '92.31', 'Bernardino\n45': '97.78', 'Twitter\n28': '96.43', 'China\n19': '94.74', 'U.S.\n12': '16.67', 'of\n38': '5.26', 'FBI\n15': '20.00', 'CNN\n11': '90.91', 'Park\n10': '40.00', 'Fort\n24': '16.67', 'Hood\n24': '12.50', 'Bailey\n10': '0.00', 'May\n14': '21.43', 'Washington\n29': '62.07', 'Navy\n30': '63.33', 'Yard\n25': '76.00', 'Chicago\n16': '62.50', 'California\n19': '89.47', 'God\n13': '69.23', 'Kmart\n12': '75.00', 'Australia\n14': '78.57', 'High\n14': '28.57', 'School\n12': '25.00', 'Black\n11': '18.18', 'Friday\n12': '16.67', 'London\n11': '100.00', 'Marysville\n18': '44.44', 'Awards\n11': '45.45', 'Portland\n11': '81.82', 'Justin\n22': '9.09', 'UCLA\n10': '10.00', 'Health\n10': '10.00', '.\n38': '13.16', "'\n15": '13.33', 'Wendy\n13': '0.00', 'Virgo\n10': '0.00', 'the\n33': '12.12', '4th\n13': '0.00', 'Generation\n11': '0.00', 'Zendesk\n18': '83.33', 'Bieber\n11': '9.09', 'UK\n13': '69.23', 'TalkTalk\n33': '78.79', 'US\n17': '41.18', 'Muhammad\n14': '92.86', 'Youssef\n12': '100.00', 'Abdulazeez\n12': '100.00', '(\n11': '0.00', ')\n12': '0.00', 'Tumblr\n18': '94.44', 'Pinterest\n18': '83.33', 'I\n11': '0.00', 'Reuters\n10': '100.00', 'Snapchat\n39': '10.26', 'Russia\n13': '92.31', 'Los\n16': '68.75', 'Angeles\n18': '61.11', 'Love\n13': '0.00', 'Obama\n10': '100.00', 'Detroit\n20': '100.00', 'Chattanooga\n18': '88.89', 'July\n10': '0.00', '&amp;\n16': '0.00', ',\n13': '0.00', 'News\n21': '0.00'}
+letter_block_acc {'title\n4324': '45.77', 'lower\n433': '12.24', 'upper\n747': '19.95', 'digit\n57': '21.05', 'other\n394': '21.07'}
+num phoToken_block value_list 4673
+num phoToken_block value_list 398
+num phoToken_block value_list 388
+num phoToken_block value_list 496
+phoToken_block_acc {'(0.0,0.000000]\n4673': '31.86', '(0.0,0.091000]\n398': '35.18', '(0.091000,0.920000]\n388': '61.08', '(0.999999,1.000000]\n496': '82.66'}
+len(value_list) 3104
+len(value_list) 1156
+len(value_list) 864
+len(value_list) 831
+tokenFreq_block_acc {'(0.0,0.000000]\n3104': '38.24', '(0.000000,0.002000]\n1156': '48.62', '(0.002000,0.018000]\n864': '35.88', '(0.018000,1.000000]\n831': '26.11'}
+model_name CbertWnonsnonMlp_longsent_nsent3_4561
+####################################################
+corpus_type: wnut16
+###########################____select_buckets____#######################
+compare conll03_CbertWnon_snonMlp_sent10, model is: conll03_CbertWnon_snonMlp_sent1, conll03_CbertWnon_snonMlp_sent10...
+midx1, midx2 1 0
+seltAlwaysGood_m1: CbertWnonsnonMlp_longsent
+seltAlwaysGood_m2: CbertWnon_snonMlp
+model_names: ['CbertWnon_snonMlp_4250', 'CbertWnonsnonMlp_longsent_nsent3_4561']
+len(model1) 8
+metric_names: R-eDen
+list1:  ['42.26', '51.96', '50.12', '38.11']
+list2:  ['39.94', '50.77', '47.82', '35.98']
+
+detas_subs: [0.05808713069604408, 0.02343903880244234, 0.04809703053115845, 0.0591995553085048]
+
+metric_names: R-oov
+list1:  ['47.83', '51.25', '45.07', '36.81']
+list2:  ['49.63', '48.78', '41.87', '32.71']
+
+detas_subs: [-0.036268386056820555, 0.050635506355063524, 0.07642703606400772, 0.12534393151941306]
+
+metric_names: R-sLen
+list1:  ['45.60', '39.16', '50.05', '46.97']
+list2:  ['43.38', '39.26', '46.11', '45.63']
+
+detas_subs: [0.051175656984785586, -0.002547121752419802, 0.08544784211667746, 0.029366644751260055]
+
+metric_names: MF-et
+list1:  ['40.11', '67.61', '73.10', '80.85']
+list2:  ['38.03', '75.50', '74.17', '79.77']
+
+detas_subs: [0.054693662897712284, -0.10450331125827815, -0.014426317918295906, 0.013538924407672036]
+
+metric_names: F-ent
+list1:  ['39.55', '74.41', '69.45', '62.69']
+list2:  ['37.48', '74.60', '65.05', '66.28']
+
+detas_subs: [0.055229455709711855, -0.0025469168900803985, 0.06764027671022299, -0.05416415208207609]
+
+metric_names: MF-tt
+list1:  ['31.86', '35.18', '61.08', '82.66']
+list2:  ['32.42', '28.89', '61.60', '79.84']
+
+detas_subs: [-0.017273288093769348, 0.2177223952924887, -0.008441558441558493, 0.03532064128256504]
+
+metric_names: F-tok
+list1:  ['38.24', '48.62', '35.88', '26.11']
+list2:  ['38.34', '49.31', '37.50', '21.78']
+
+detas_subs: [-0.0026082420448618, -0.013993104846887138, -0.04319999999999993, 0.19880624426078963]
+
+metric_names: R-eLen
+list1:  ['46.55', '50.96', '34.89', '17.84']
+list2:  ['43.69', '50.74', '33.03', '19.38']
+
+detas_subs: [0.06546120393682764, 0.004335829720141877, 0.05631244323342414, -0.07946336429308562]
+
+min_sml_str: Cbert_long2short_min_sml_str_['Y','XS','S','S','XL','XS','L','XL']
+max_sml_str: Cbert_long2short_max_sml_str_['XS','XL','L','XS','L','S','XL','XS']
+fn_test_results ner_results/notewb_CbertWnon_snonMlp_6635.txt
+corpus_type notewb
+tag_sequences_train ['O', 'O', 'O', 'O', 'O', 'O', 'O', 'O', 'O', 'O', 'O', 'O', 'O', 'O', 'O', 'O', 'O', 'O', 'O', 'O', 'O', 'O', 'O', 'O', 'O', 'O', 'O', 'O', 'O', 'O', 'O', 'O', 'O', 'O', 'O', 'O', 'O', 'O', 'O', 'O', 'O', 'O', 'O', 'O', 'O', 'O', 'O', 'O', 'O', 'O', 'O', 'O', 'O', 'O', 'O', 'O', 'O', 'O', 'O', 'O', 'O', 'O', 'O', 'B-CARDINAL', 'O', 'B-CARDINAL', 'O', 'O', 'O', 'O', 'O', 'B-GPE', 'B-DATE', 'I-DATE', 'O', 'O', 'O', 'O', 'O', 'O']
+word_sequences_train ['Even', 'I', 'get', 'tired', 'of', 'arguing', 'about', 'tax', 'hikes', '.', 'For', 'a', 'change', 'of', 'pace', ',', 'I', 'invite', 'you', 'to', 'contemplate', 'the', 'hazard', 'posed', 'by', 'that', 'old', 'computer', 'monitor', 'sitting', 'in', 'your', 'basement', 'or', 'the', 'pre-big', 'screen', 'TV', 'collecting', 'dust', 'in', 'your', 'garage', '.', 'They', 'contain', 'toxic', 'chemicals', '--', 'do', "n't", 'dump', 'them', 'in', 'the', 'trash', '!', 'Be', 'responsible', 'and', 'unload', 'them', 'at', 'one', 'of', '18', 'electronics', 'recycling', 'events', 'scheduled', 'in', 'Virginia', 'this', 'April', '.', 'If', 'landfilled', 'or', 'incinerated', ',']
+corpus_type notewb
+mean_test_length: 22.895659798334066
+corpus_type notewb
+corpus_type notewb
+mode  
+corpus_type notewb
+load the hard dictionary of entity token in test set...
+load the hard dictionary of entity span in test set...
+load the hard dictionary of entity token in test set...
+load the hard dictionary of entity span in test set...
+type,total_ball entity 1310
+total_spanfreq_entity 0
+type,total_ball entity 1310
+total_spanfreq_entity 0
+type,total_ball entity 1310
+total_spanfreq_entity 0
+type,total_ball token 2137
+avg_pile_balls: 707.0
+type,total_ball entity 1310
+total_spanfreq_entity 0
+type,total_ball token 2137
+total_spanfreq_entity 0
+type,total_ball entity 1310
+total_spanfreq_entity 0
+oovDensity_break_value {'(0.0,0.000000]': 979, '(0.000000,0.041667]': 112, '(0.041667,0.062500]': 116, '(0.062500,1.000000]': 103}
+sentLen_break_value {'(0.0,17.000000]': 339, '(17.000000,27.000000]': 354, '(27.000000,39.000000]': 324, '(39.000000,116.000000]': 293}
+tokenDensity_break_value {'(0.0,0.090909]': 337, '(0.090909,0.168539]': 327, '(0.168539,0.260870]': 323, '(0.260870,1.000000]': 323}
+rhoToken_break_value {'(0.0,0.000000]': 663, '(0.0,0.308000]': 707, '(0.308000,0.976000]': 707, '(0.999999,1.000000]': 60}
+rhoEntity_break_value {'(0.0,0.000000]': 645, '(0.000000,0.389000]': 251, '(0.389000,0.833000]': 209, '(0.833000,1.000000]': 205}
+tokenFreqRate_break_value {'(0.0,0.000000]': 578, '(0.000000,0.004000]': 586, '(0.004000,0.026000]': 492, '(0.026000,1.000000]': 481}
+spanFreqRate_break_value {'(0.0,0.000000]': 535, '(0.000000,0.019000]': 261, '(0.019000,0.166000]': 290, '(0.166000,1.000000]': 224}
+low_bounds [0.0, 0.090909, 0.168539, 0.26087]
+up_bounds [0.090909, 0.168539, 0.26087, 1.0]
+p_ranges ['(0.0,0.090909]', '(0.090909,0.168539]', '(0.168539,0.260870]', '(0.260870,1.000000]']
+total_count_entity 1310
+low_bounds [0.0, 0.0, 0.041667, 0.0625]
+up_bounds [0.0, 0.041667, 0.0625, 1.0]
+p_ranges ['(0.0,0.000000]', '(0.000000,0.041667]', '(0.041667,0.062500]', '(0.062500,1.000000]']
+total_count_entity 1310
+low_bounds [0.0, 17.0, 27.0, 39.0]
+up_bounds [17.0, 27.0, 39.0, 116.0]
+p_ranges ['(0.0,17.000000]', '(17.000000,27.000000]', '(27.000000,39.000000]', '(39.000000,116.000000]']
+total_count_entity 1310
+low_bounds [0.0, 0.0, 0.019, 0.166]
+up_bounds [0.0, 0.019, 0.166, 1.0]
+p_ranges ['(0.0,0.000000]', '(0.000000,0.019000]', '(0.019000,0.166000]', '(0.166000,1.000000]']
+total_count_entity 1310
+entity_freq_uniform
+p_ranges_rhoToken ['(0.0,0.000000]', '(0.000000,0.019000]', '(0.019000,0.166000]', '(0.166000,1.000000]']
+low_bounds [0.0, 0.0, 0.308, 0.999999]
+up_bounds [0.0, 0.308, 0.976, 1.0]
+p_ranges ['(0.0,0.000000]', '(0.0,0.308000]', '(0.308000,0.976000]', '(0.999999,1.000000]']
+total_count_entity 2137
+low_bounds [0.0, 0.0, 0.004, 0.026]
+up_bounds [0.0, 0.004, 0.026, 1.0]
+p_ranges ['(0.0,0.000000]', '(0.000000,0.004000]', '(0.004000,0.026000]', '(0.026000,1.000000]']
+total_count_entity 2137
+pos_block_acc {'NNP\n1218': '62.32', 'CD\n239': '62.34', 'DT\n124': '40.32', 'NN\n138': '46.38', 'IN\n38': '47.37', 'JJ\n146': '73.29', 'POS\n19': '26.32', 'NNS\n48': '58.33', 'NNPS\n51': '52.94', 'HYPH\n38': '68.42', 'RB\n25': '48.00', 'CC\n10': '20.00'}
+letter_block_acc {'title\n1293': '65.66', 'lower\n475': '43.16', 'upper\n82': '45.12', 'digit\n131': '67.94', 'other\n156': '56.41'}
+num phoToken_block value_list 663
+num phoToken_block value_list 707
+num phoToken_block value_list 707
+num phoToken_block value_list 60
+phoToken_block_acc {'(0.0,0.000000]\n663': '39.37', '(0.0,0.308000]\n707': '51.06', '(0.308000,0.976000]\n707': '85.15', '(0.999999,1.000000]\n60': '73.33'}
+len(value_list) 578
+len(value_list) 586
+len(value_list) 492
+len(value_list) 481
+tokenFreq_block_acc {'(0.0,0.000000]\n578': '48.79', '(0.000000,0.004000]\n586': '64.16', '(0.004000,0.026000]\n492': '68.50', '(0.026000,1.000000]\n481': '56.76'}
+model_name CbertWnon_snonMlp_6635
+####################################################
+fn_test_results ner_results/longsent_results/notewb_CbertWnon_snonMlp_sent7_66895560_long2short_7629.txt
+corpus_type notewb
+tag_sequences_train ['O', 'O', 'O', 'O', 'O', 'O', 'O', 'O', 'O', 'O', 'O', 'O', 'O', 'O', 'O', 'O', 'O', 'O', 'O', 'O', 'O', 'O', 'O', 'O', 'O', 'O', 'O', 'O', 'O', 'O', 'O', 'O', 'O', 'O', 'O', 'O', 'O', 'O', 'O', 'O', 'O', 'O', 'O', 'O', 'O', 'O', 'O', 'O', 'O', 'O', 'O', 'O', 'O', 'O', 'O', 'O', 'O', 'O', 'O', 'O', 'O', 'O', 'O', 'B-CARDINAL', 'O', 'B-CARDINAL', 'O', 'O', 'O', 'O', 'O', 'B-GPE', 'B-DATE', 'I-DATE', 'O', 'O', 'O', 'O', 'O', 'O']
+word_sequences_train ['Even', 'I', 'get', 'tired', 'of', 'arguing', 'about', 'tax', 'hikes', '.', 'For', 'a', 'change', 'of', 'pace', ',', 'I', 'invite', 'you', 'to', 'contemplate', 'the', 'hazard', 'posed', 'by', 'that', 'old', 'computer', 'monitor', 'sitting', 'in', 'your', 'basement', 'or', 'the', 'pre-big', 'screen', 'TV', 'collecting', 'dust', 'in', 'your', 'garage', '.', 'They', 'contain', 'toxic', 'chemicals', '--', 'do', "n't", 'dump', 'them', 'in', 'the', 'trash', '!', 'Be', 'responsible', 'and', 'unload', 'them', 'at', 'one', 'of', '18', 'electronics', 'recycling', 'events', 'scheduled', 'in', 'Virginia', 'this', 'April', '.', 'If', 'landfilled', 'or', 'incinerated', ',']
+corpus_type notewb
+mean_test_length: 22.895659798334066
+corpus_type notewb
+corpus_type notewb
+mode  
+corpus_type notewb
+load the hard dictionary of entity token in test set...
+load the hard dictionary of entity span in test set...
+load the hard dictionary of entity token in test set...
+load the hard dictionary of entity span in test set...
+type,total_ball entity 1310
+total_spanfreq_entity 0
+type,total_ball entity 1310
+total_spanfreq_entity 0
+type,total_ball entity 1310
+total_spanfreq_entity 0
+type,total_ball token 2137
+avg_pile_balls: 707.0
+type,total_ball entity 1310
+total_spanfreq_entity 0
+type,total_ball token 2137
+total_spanfreq_entity 0
+type,total_ball entity 1310
+total_spanfreq_entity 0
+oovDensity_break_value {'(0.0,0.000000]': 979, '(0.000000,0.041667]': 112, '(0.041667,0.062500]': 116, '(0.062500,1.000000]': 103}
+sentLen_break_value {'(0.0,17.000000]': 339, '(17.000000,27.000000]': 354, '(27.000000,39.000000]': 324, '(39.000000,116.000000]': 293}
+tokenDensity_break_value {'(0.0,0.090909]': 337, '(0.090909,0.168539]': 327, '(0.168539,0.260870]': 323, '(0.260870,1.000000]': 323}
+rhoToken_break_value {'(0.0,0.000000]': 663, '(0.0,0.308000]': 707, '(0.308000,0.976000]': 707, '(0.999999,1.000000]': 60}
+rhoEntity_break_value {'(0.0,0.000000]': 645, '(0.000000,0.389000]': 251, '(0.389000,0.833000]': 209, '(0.833000,1.000000]': 205}
+tokenFreqRate_break_value {'(0.0,0.000000]': 578, '(0.000000,0.004000]': 586, '(0.004000,0.026000]': 492, '(0.026000,1.000000]': 481}
+spanFreqRate_break_value {'(0.0,0.000000]': 535, '(0.000000,0.019000]': 261, '(0.019000,0.166000]': 290, '(0.166000,1.000000]': 224}
+low_bounds [0.0, 0.090909, 0.168539, 0.26087]
+up_bounds [0.090909, 0.168539, 0.26087, 1.0]
+p_ranges ['(0.0,0.090909]', '(0.090909,0.168539]', '(0.168539,0.260870]', '(0.260870,1.000000]']
+total_count_entity 1310
+low_bounds [0.0, 0.0, 0.041667, 0.0625]
+up_bounds [0.0, 0.041667, 0.0625, 1.0]
+p_ranges ['(0.0,0.000000]', '(0.000000,0.041667]', '(0.041667,0.062500]', '(0.062500,1.000000]']
+total_count_entity 1310
+low_bounds [0.0, 17.0, 27.0, 39.0]
+up_bounds [17.0, 27.0, 39.0, 116.0]
+p_ranges ['(0.0,17.000000]', '(17.000000,27.000000]', '(27.000000,39.000000]', '(39.000000,116.000000]']
+total_count_entity 1310
+low_bounds [0.0, 0.0, 0.019, 0.166]
+up_bounds [0.0, 0.019, 0.166, 1.0]
+p_ranges ['(0.0,0.000000]', '(0.000000,0.019000]', '(0.019000,0.166000]', '(0.166000,1.000000]']
+total_count_entity 1310
+entity_freq_uniform
+p_ranges_rhoToken ['(0.0,0.000000]', '(0.000000,0.019000]', '(0.019000,0.166000]', '(0.166000,1.000000]']
+low_bounds [0.0, 0.0, 0.308, 0.999999]
+up_bounds [0.0, 0.308, 0.976, 1.0]
+p_ranges ['(0.0,0.000000]', '(0.0,0.308000]', '(0.308000,0.976000]', '(0.999999,1.000000]']
+total_count_entity 2137
+low_bounds [0.0, 0.0, 0.004, 0.026]
+up_bounds [0.0, 0.004, 0.026, 1.0]
+p_ranges ['(0.0,0.000000]', '(0.000000,0.004000]', '(0.004000,0.026000]', '(0.026000,1.000000]']
+total_count_entity 2137
+pos_block_acc {'NNP\n1218': '80.05', 'CD\n239': '68.20', 'DT\n124': '50.00', 'NN\n138': '53.62', 'IN\n38': '47.37', 'JJ\n146': '81.51', 'POS\n19': '52.63', 'NNS\n48': '64.58', 'NNPS\n51': '64.71', 'HYPH\n38': '76.32', 'RB\n25': '52.00', 'CC\n10': '10.00'}
+letter_block_acc {'title\n1293': '81.44', 'lower\n475': '51.16', 'upper\n82': '60.98', 'digit\n131': '70.23', 'other\n156': '69.87'}
+num phoToken_block value_list 663
+num phoToken_block value_list 707
+num phoToken_block value_list 707
+num phoToken_block value_list 60
+phoToken_block_acc {'(0.0,0.000000]\n663': '62.14', '(0.0,0.308000]\n707': '62.52', '(0.308000,0.976000]\n707': '91.09', '(0.999999,1.000000]\n60': '81.67'}
+len(value_list) 578
+len(value_list) 586
+len(value_list) 492
+len(value_list) 481
+tokenFreq_block_acc {'(0.0,0.000000]\n578': '72.32', '(0.000000,0.004000]\n586': '79.01', '(0.004000,0.026000]\n492': '73.37', '(0.026000,1.000000]\n481': '63.41'}
+model_name CbertWnonsnonMlp_longsent_nsent7_7629
+####################################################
+corpus_type: notewb
+###########################____select_buckets____#######################
+compare conll03_CbertWnon_snonMlp_sent10, model is: conll03_CbertWnon_snonMlp_sent1, conll03_CbertWnon_snonMlp_sent10...
+midx1, midx2 1 0
+seltAlwaysGood_m1: CbertWnonsnonMlp_longsent
+seltAlwaysGood_m2: CbertWnon_snonMlp
+model_names: ['CbertWnon_snonMlp_6635', 'CbertWnonsnonMlp_longsent_nsent7_7629']
+len(model1) 8
+metric_names: R-eDen
+list1:  ['74.37', '79.70', '74.92', '76.31']
+list2:  ['61.08', '75.04', '69.49', '62.48']
+
+detas_subs: [0.2175834970530453, 0.06210021321961615, 0.07814073967477345, 0.22135083226632532]
+
+metric_names: R-oov
+list1:  ['76.72', '70.59', '76.92', '77.51']
+list2:  ['68.18', '64.97', '57.01', '64.52']
+
+detas_subs: [0.1252566735112935, 0.0865014622133293, 0.3492369759691283, 0.20133292002479866]
+
+metric_names: R-sLen
+list1:  ['79.36', '72.88', '75.30', '78.10']
+list2:  ['68.85', '62.40', '63.28', '72.73']
+
+detas_subs: [0.15265068990559194, 0.1679487179487179, 0.1899494310998735, 0.07383473119757995]
+
+metric_names: MF-et
+list1:  ['64.51', '77.70', '96.48', '87.50']
+list2:  ['48.88', '69.64', '91.74', '81.74']
+
+detas_subs: [0.3197626841243863, 0.11573808156232054, 0.05166775670372803, 0.07046733545387822]
+
+metric_names: F-ent
+list1:  ['62.47', '82.63', '89.09', '88.79']
+list2:  ['49.52', '69.53', '84.31', '82.20']
+
+detas_subs: [0.26151050080775434, 0.18840788149000423, 0.05669552840706916, 0.0801703163017032]
+
+metric_names: MF-tt
+list1:  ['62.14', '62.52', '91.09', '81.67']
+list2:  ['39.37', '51.06', '85.15', '73.33']
+
+detas_subs: [0.5783591567183135, 0.2244418331374853, 0.06975924838520255, 0.11373244238374476]
+
+metric_names: F-tok
+list1:  ['72.32', '79.01', '73.37', '63.41']
+list2:  ['48.79', '64.16', '68.50', '56.76']
+
+detas_subs: [0.48227095716335305, 0.23145261845386547, 0.07109489051094897, 0.11715997181113458]
+
+metric_names: R-eLen
+list1:  ['79.21', '75.76', '69.66', '55.78']
+list2:  ['68.61', '70.18', '55.42', '52.48']
+
+detas_subs: [0.154496429091969, 0.07950983186092901, 0.25694695055936473, 0.0628810975609757]
+
+min_sml_str: Cbert_long2short_min_sml_str_['Y','Y','Y','Y','Y','Y','Y','Y']
+max_sml_str: Cbert_long2short_max_sml_str_['XL','L','L','XS','S','XS','XS','L']
+fn_test_results ner_results/notebc_CbertWnon_snonMlp_8103.txt
+corpus_type notebc
+tag_sequences_train ['O', 'O', 'O', 'O', 'B-GPE', 'O', 'O', 'B-PERSON', 'I-PERSON', 'I-PERSON', 'I-PERSON', 'O', 'O', 'O', 'O', 'O', 'O', 'O', 'O', 'O', 'O', 'B-PERSON', 'O', 'O', 'O', 'O', 'O', 'O', 'O', 'O', 'O', 'O', 'O', 'O', 'O', 'O', 'O', 'O', 'O', 'O', 'O', 'O', 'O', 'O', 'O', 'O', 'O', 'O', 'O', 'O', 'O', 'O', 'O', 'O', 'O', 'O', 'O', 'O', 'O', 'O', 'O', 'O', 'O', 'O', 'O', 'O', 'O', 'O', 'O', 'O', 'O', 'O', 'O', 'O', 'O', 'O', 'O', 'O', 'O', 'O']
+word_sequences_train ['Joining', 'us', 'live', 'from', 'Jeddah', 'is', 'Doctor', 'Zuhair', 'Al', '-', 'Harithy', ',', 'the', 'writer', 'and', 'researcher', 'on', 'political', 'issues', '.', 'Doctor', 'Zuhair', ',', 'do', 'you', 'expect', 'this', 'summit', 'to', 'be', 'any', 'different', 'from', 'previous', 'summits', '?', 'Well', ',', 'by', 'God', ',', 'we', 'hope', 'so', ',', 'I', 'mean', ',', 'uh', ',', 'when', ',', 'uh', ',', 'we', 'feel', 'that', 'the', 'attendance', 'of', 'all', 'the', 'leaders', ',', 'uh', ',', 'reflects', ',', 'uh', ',', 'the', 'importance', 'of', 'this', 'summit', '.', 'And', ',', 'uh', ',']
+corpus_type notebc
+mean_test_length: 16.295104261106076
+corpus_type notebc
+corpus_type notebc
+mode  
+corpus_type notebc
+load the hard dictionary of entity token in test set...
+load the hard dictionary of entity span in test set...
+load the hard dictionary of entity token in test set...
+load the hard dictionary of entity span in test set...
+type,total_ball entity 1827
+total_spanfreq_entity 0
+type,total_ball entity 1827
+total_spanfreq_entity 0
+type,total_ball entity 1827
+total_spanfreq_entity 0
+type,total_ball token 3480
+avg_pile_balls: 1114.5
+type,total_ball entity 1827
+total_spanfreq_entity 0
+type,total_ball token 3480
+total_spanfreq_entity 0
+type,total_ball entity 1827
+total_spanfreq_entity 0
+oovDensity_break_value {'(0.0,0.000000]': 473, '(0.000000,0.037037]': 467, '(0.037037,0.062500]': 457, '(0.062500,1.000000]': 430}
+sentLen_break_value {'(0.0,15.000000]': 519, '(15.000000,22.000000]': 438, '(22.000000,35.000000]': 451, '(35.000000,107.000000]': 419}
+tokenDensity_break_value {'(0.0,0.125000]': 491, '(0.125000,0.205882]': 447, '(0.205882,0.326087]': 449, '(0.326087,1.000000]': 440}
+rhoToken_break_value {'(0.0,0.000000]': 714, '(0.0,0.455000]': 1115, '(0.455000,0.991000]': 1114, '(0.999999,1.000000]': 537}
+rhoEntity_break_value {'(0.0,0.000000]': 716, '(0.000000,0.783000]': 371, '(0.783000,1.000000]': 740}
+tokenFreqRate_break_value {'(0.0,0.002000]': 952, '(0.002000,0.010000]': 911, '(0.010000,0.033000]': 822, '(0.033000,1.000000]': 795}
+spanFreqRate_break_value {'(0.0,0.000000]': 734, '(0.000000,0.038000]': 373, '(0.038000,0.162000]': 364, '(0.162000,1.000000]': 356}
+low_bounds [0.0, 0.125, 0.205882, 0.326087]
+up_bounds [0.125, 0.205882, 0.326087, 1.0]
+p_ranges ['(0.0,0.125000]', '(0.125000,0.205882]', '(0.205882,0.326087]', '(0.326087,1.000000]']
+total_count_entity 1827
+low_bounds [0.0, 0.0, 0.037037, 0.0625]
+up_bounds [0.0, 0.037037, 0.0625, 1.0]
+p_ranges ['(0.0,0.000000]', '(0.000000,0.037037]', '(0.037037,0.062500]', '(0.062500,1.000000]']
+total_count_entity 1827
+low_bounds [0.0, 15.0, 22.0, 35.0]
+up_bounds [15.0, 22.0, 35.0, 107.0]
+p_ranges ['(0.0,15.000000]', '(15.000000,22.000000]', '(22.000000,35.000000]', '(35.000000,107.000000]']
+total_count_entity 1827
+low_bounds [0.0, 0.0, 0.038, 0.162]
+up_bounds [0.0, 0.038, 0.162, 1.0]
+p_ranges ['(0.0,0.000000]', '(0.000000,0.038000]', '(0.038000,0.162000]', '(0.162000,1.000000]']
+total_count_entity 1827
+entity_freq_uniform
+p_ranges_rhoToken ['(0.0,0.000000]', '(0.000000,0.038000]', '(0.038000,0.162000]', '(0.162000,1.000000]']
+low_bounds [0.0, 0.0, 0.455, 0.999999]
+up_bounds [0.0, 0.455, 0.991, 1.0]
+p_ranges ['(0.0,0.000000]', '(0.0,0.455000]', '(0.455000,0.991000]', '(0.999999,1.000000]']
+total_count_entity 3480
+low_bounds [0.0, 0.002, 0.01, 0.033]
+up_bounds [0.002, 0.01, 0.033, 1.0]
+p_ranges ['(0.0,0.002000]', '(0.002000,0.010000]', '(0.010000,0.033000]', '(0.033000,1.000000]']
+total_count_entity 3480
+pos_block_acc {'NNP\n1870': '87.81', 'NNPS\n135': '45.19', 'DT\n279': '63.80', 'CD\n435': '71.26', 'CC\n16': '87.50', 'NNS\n114': '82.46', 'JJ\n169': '76.33', 'IN\n73': '71.23', 'HYPH\n30': '73.33', 'NN\n215': '62.79', 'POS\n26': '69.23', 'RB\n69': '66.67'}
+letter_block_acc {'title\n2090': '84.83', 'lower\n1208': '67.14', 'upper\n49': '85.71', 'digit\n77': '84.42', 'other\n56': '66.07'}
+num phoToken_block value_list 714
+num phoToken_block value_list 1115
+num phoToken_block value_list 1114
+num phoToken_block value_list 537
+phoToken_block_acc {'(0.0,0.000000]\n714': '61.06', '(0.0,0.455000]\n1115': '69.60', '(0.455000,0.991000]\n1114': '90.22', '(0.999999,1.000000]\n537': '95.16'}
+len(value_list) 952
+len(value_list) 911
+len(value_list) 822
+len(value_list) 795
+tokenFreq_block_acc {'(0.0,0.002000]\n952': '82.67', '(0.002000,0.010000]\n911': '77.50', '(0.010000,0.033000]\n822': '82.85', '(0.033000,1.000000]\n795': '69.69'}
+model_name CbertWnon_snonMlp_8103
+####################################################
+fn_test_results ner_results/longsent_results/notebc_CbertWnon_snonMlp_sent7_98571898_long2short_8225.txt
+corpus_type notebc
+tag_sequences_train ['O', 'O', 'O', 'O', 'B-GPE', 'O', 'O', 'B-PERSON', 'I-PERSON', 'I-PERSON', 'I-PERSON', 'O', 'O', 'O', 'O', 'O', 'O', 'O', 'O', 'O', 'O', 'B-PERSON', 'O', 'O', 'O', 'O', 'O', 'O', 'O', 'O', 'O', 'O', 'O', 'O', 'O', 'O', 'O', 'O', 'O', 'O', 'O', 'O', 'O', 'O', 'O', 'O', 'O', 'O', 'O', 'O', 'O', 'O', 'O', 'O', 'O', 'O', 'O', 'O', 'O', 'O', 'O', 'O', 'O', 'O', 'O', 'O', 'O', 'O', 'O', 'O', 'O', 'O', 'O', 'O', 'O', 'O', 'O', 'O', 'O', 'O']
+word_sequences_train ['Joining', 'us', 'live', 'from', 'Jeddah', 'is', 'Doctor', 'Zuhair', 'Al', '-', 'Harithy', ',', 'the', 'writer', 'and', 'researcher', 'on', 'political', 'issues', '.', 'Doctor', 'Zuhair', ',', 'do', 'you', 'expect', 'this', 'summit', 'to', 'be', 'any', 'different', 'from', 'previous', 'summits', '?', 'Well', ',', 'by', 'God', ',', 'we', 'hope', 'so', ',', 'I', 'mean', ',', 'uh', ',', 'when', ',', 'uh', ',', 'we', 'feel', 'that', 'the', 'attendance', 'of', 'all', 'the', 'leaders', ',', 'uh', ',', 'reflects', ',', 'uh', ',', 'the', 'importance', 'of', 'this', 'summit', '.', 'And', ',', 'uh', ',']
+corpus_type notebc
+mean_test_length: 16.295104261106076
+corpus_type notebc
+corpus_type notebc
+mode  
+corpus_type notebc
+load the hard dictionary of entity token in test set...
+load the hard dictionary of entity span in test set...
+load the hard dictionary of entity token in test set...
+load the hard dictionary of entity span in test set...
+type,total_ball entity 1827
+total_spanfreq_entity 0
+type,total_ball entity 1827
+total_spanfreq_entity 0
+type,total_ball entity 1827
+total_spanfreq_entity 0
+type,total_ball token 3480
+avg_pile_balls: 1114.5
+type,total_ball entity 1827
+total_spanfreq_entity 0
+type,total_ball token 3480
+total_spanfreq_entity 0
+type,total_ball entity 1827
+total_spanfreq_entity 0
+oovDensity_break_value {'(0.0,0.000000]': 473, '(0.000000,0.037037]': 467, '(0.037037,0.062500]': 457, '(0.062500,1.000000]': 430}
+sentLen_break_value {'(0.0,15.000000]': 519, '(15.000000,22.000000]': 438, '(22.000000,35.000000]': 451, '(35.000000,107.000000]': 419}
+tokenDensity_break_value {'(0.0,0.125000]': 491, '(0.125000,0.205882]': 447, '(0.205882,0.326087]': 449, '(0.326087,1.000000]': 440}
+rhoToken_break_value {'(0.0,0.000000]': 714, '(0.0,0.455000]': 1115, '(0.455000,0.991000]': 1114, '(0.999999,1.000000]': 537}
+rhoEntity_break_value {'(0.0,0.000000]': 716, '(0.000000,0.783000]': 371, '(0.783000,1.000000]': 740}
+tokenFreqRate_break_value {'(0.0,0.002000]': 952, '(0.002000,0.010000]': 911, '(0.010000,0.033000]': 822, '(0.033000,1.000000]': 795}
+spanFreqRate_break_value {'(0.0,0.000000]': 734, '(0.000000,0.038000]': 373, '(0.038000,0.162000]': 364, '(0.162000,1.000000]': 356}
+low_bounds [0.0, 0.125, 0.205882, 0.326087]
+up_bounds [0.125, 0.205882, 0.326087, 1.0]
+p_ranges ['(0.0,0.125000]', '(0.125000,0.205882]', '(0.205882,0.326087]', '(0.326087,1.000000]']
+total_count_entity 1827
+low_bounds [0.0, 0.0, 0.037037, 0.0625]
+up_bounds [0.0, 0.037037, 0.0625, 1.0]
+p_ranges ['(0.0,0.000000]', '(0.000000,0.037037]', '(0.037037,0.062500]', '(0.062500,1.000000]']
+total_count_entity 1827
+low_bounds [0.0, 15.0, 22.0, 35.0]
+up_bounds [15.0, 22.0, 35.0, 107.0]
+p_ranges ['(0.0,15.000000]', '(15.000000,22.000000]', '(22.000000,35.000000]', '(35.000000,107.000000]']
+total_count_entity 1827
+low_bounds [0.0, 0.0, 0.038, 0.162]
+up_bounds [0.0, 0.038, 0.162, 1.0]
+p_ranges ['(0.0,0.000000]', '(0.000000,0.038000]', '(0.038000,0.162000]', '(0.162000,1.000000]']
+total_count_entity 1827
+entity_freq_uniform
+p_ranges_rhoToken ['(0.0,0.000000]', '(0.000000,0.038000]', '(0.038000,0.162000]', '(0.162000,1.000000]']
+low_bounds [0.0, 0.0, 0.455, 0.999999]
+up_bounds [0.0, 0.455, 0.991, 1.0]
+p_ranges ['(0.0,0.000000]', '(0.0,0.455000]', '(0.455000,0.991000]', '(0.999999,1.000000]']
+total_count_entity 3480
+low_bounds [0.0, 0.002, 0.01, 0.033]
+up_bounds [0.002, 0.01, 0.033, 1.0]
+p_ranges ['(0.0,0.002000]', '(0.002000,0.010000]', '(0.010000,0.033000]', '(0.033000,1.000000]']
+total_count_entity 3480
+pos_block_acc {'NNP\n1870': '87.97', 'NNPS\n135': '45.19', 'DT\n279': '63.80', 'CD\n435': '74.02', 'CC\n16': '75.00', 'NNS\n114': '84.21', 'JJ\n169': '78.11', 'IN\n73': '76.71', 'HYPH\n30': '73.33', 'NN\n215': '66.98', 'POS\n26': '84.62', 'RB\n69': '71.01'}
+letter_block_acc {'title\n2090': '84.83', 'lower\n1208': '70.03', 'upper\n49': '85.71', 'digit\n77': '89.61', 'other\n56': '67.86'}
+num phoToken_block value_list 714
+num phoToken_block value_list 1115
+num phoToken_block value_list 1114
+num phoToken_block value_list 537
+phoToken_block_acc {'(0.0,0.000000]\n714': '62.46', '(0.0,0.455000]\n1115': '71.66', '(0.455000,0.991000]\n1114': '90.84', '(0.999999,1.000000]\n537': '95.16'}
+len(value_list) 952
+len(value_list) 911
+len(value_list) 822
+len(value_list) 795
+tokenFreq_block_acc {'(0.0,0.002000]\n952': '83.61', '(0.002000,0.010000]\n911': '79.03', '(0.010000,0.033000]\n822': '83.94', '(0.033000,1.000000]\n795': '70.69'}
+model_name CbertWnonsnonMlp_longsent_nsent78225_9022
+####################################################
+corpus_type: notebc
+###########################____select_buckets____#######################
+compare conll03_CbertWnon_snonMlp_sent10, model is: conll03_CbertWnon_snonMlp_sent1, conll03_CbertWnon_snonMlp_sent10...
+midx1, midx2 1 0
+seltAlwaysGood_m1: CbertWnonsnonMlp_longsent
+seltAlwaysGood_m2: CbertWnon_snonMlp
+model_names: ['CbertWnon_snonMlp_8103', 'CbertWnonsnonMlp_longsent_nsent78225_9022']
+len(model1) 8
+metric_names: R-eDen
+list1:  ['82.65', '83.26', '80.82', '82.30']
+list2:  ['80.28', '81.72', '79.74', '81.51']
+
+detas_subs: [0.029521674140508276, 0.01884483602545284, 0.013544018058690724, 0.009692062323641172]
+
+metric_names: R-oov
+list1:  ['81.91', '81.16', '82.32', '83.66']
+list2:  ['78.50', '80.64', '81.47', '82.69']
+
+detas_subs: [0.04343949044585983, 0.006448412698412649, 0.01043328832699146, 0.011730559922602479]
+
+metric_names: R-sLen
+list1:  ['84.59', '83.03', '80.61', '80.33']
+list2:  ['83.04', '81.12', '79.35', '79.25']
+
+detas_subs: [0.01866570327552983, 0.023545364891518695, 0.01587901701323258, 0.013627760252365909]
+
+metric_names: MF-et
+list1:  ['72.86', '67.70', '91.44', '93.44']
+list2:  ['71.91', '61.30', '90.68', '92.69']
+
+detas_subs: [0.013210958142122137, 0.10440456769983697, 0.008381120423467036, 0.008091487754881865]
+
+metric_names: F-ent
+list1:  ['73.11', '86.35', '90.67', '88.64']
+list2:  ['71.29', '85.91', '89.40', '87.04']
+
+detas_subs: [0.025529527282928784, 0.0051216389244558, 0.014205816554809798, 0.018382352941176405]
+
+metric_names: MF-tt
+list1:  ['62.46', '71.66', '90.84', '95.16']
+list2:  ['61.06', '69.60', '90.22', '95.16']
+
+detas_subs: [0.022928267278087104, 0.029597701149425323, 0.006872090445577528, 0.0]
+
+metric_names: F-tok
+list1:  ['83.61', '79.03', '83.94', '70.69']
+list2:  ['82.67', '77.50', '82.85', '69.69']
+
+detas_subs: [0.011370509253659098, 0.019741935483870984, 0.01315630657815333, 0.014349261013057828]
+
+metric_names: R-eLen
+list1:  ['84.58', '84.13', '68.17', '82.18']
+list2:  ['81.73', '83.87', '67.12', '82.97']
+
+detas_subs: [0.034870916432154585, 0.0031000357696433873, 0.015643623361144176, -0.00952151380016864]
+
+min_sml_str: Cbert_long2short_min_sml_str_['Y','Y','Y','Y','Y','Y','Y','XL']
+max_sml_str: Cbert_long2short_max_sml_str_['XS','XS','S','S','XS','S','S','XS']
+fn_test_results ner_results/notemz_CbertWnon_snonMlp_8690.txt
+corpus_type notemz
+tag_sequences_train ['O', 'O', 'O', 'O', 'B-NORP', 'I-NORP', 'I-NORP', 'O', 'O', 'B-DATE', 'I-DATE', 'I-DATE', 'B-DATE', 'I-DATE', 'O', 'O', 'B-CARDINAL', 'I-CARDINAL', 'O', 'O', 'B-GPE', 'O', 'O', 'B-FAC', 'I-FAC', 'O', 'O', 'O', 'O', 'B-GPE', 'O', 'O', 'B-GPE', 'O', 'O', 'O', 'O', 'O', 'B-PERCENT', 'I-PERCENT', 'O', 'O', 'O', 'O', 'O', 'O', 'O', 'B-CARDINAL', 'O', 'B-GPE', 'O', 'O', 'O', 'O', 'O', 'O', 'B-GPE', 'O', 'O', 'B-DATE', 'I-DATE', 'O', 'B-CARDINAL', 'O', 'O', 'O', 'B-GPE', 'O', 'B-GPE', 'O', 'O', 'O', 'O', 'O', 'O', 'O', 'O', 'O', 'B-CARDINAL', 'O']
+word_sequences_train ['After', 'the', 'Handover', ':', 'Taiwan', '-', 'Macau', 'Relations', 'in', 'the', 'New', 'Millennium', 'Last', 'year', ',', 'nearly', 'one', 'million', 'travelers', 'from', 'Taiwan', 'passed', 'through', 'Macau', 'Airport', ',', 'heading', 'for', 'mainland', 'China', 'or', 'visiting', 'Macau', 'itself', ',', 'and', 'accounting', 'for', '80', '%', 'of', 'passengers', 'using', 'the', 'airport', '.', 'Around', '1,000', 'of', 'Macau', "'s", 'civil', 'servants', 'have', 'studied', 'in', 'Taiwan', ',', 'and', 'every', 'year', 'some', '30,000', 'people', 'travel', 'from', 'Macau', 'to', 'Taiwan', 'for', 'business', 'or', 'work', ',', 'along', 'with', 'more', 'than', '400', 'students']
+corpus_type notemz
+mean_test_length: 22.944801026957638
+corpus_type notemz
+corpus_type notemz
+mode  
+corpus_type notemz
+load the hard dictionary of entity token in test set...
+load the hard dictionary of entity span in test set...
+load the hard dictionary of entity token in test set...
+load the hard dictionary of entity span in test set...
+type,total_ball entity 1163
+total_spanfreq_entity 0
+type,total_ball entity 1163
+total_spanfreq_entity 0
+type,total_ball entity 1163
+total_spanfreq_entity 0
+type,total_ball token 2131
+avg_pile_balls: 690.0
+type,total_ball entity 1163
+total_spanfreq_entity 0
+type,total_ball token 2131
+total_spanfreq_entity 0
+type,total_ball entity 1163
+total_spanfreq_entity 0
+oovDensity_break_value {'(0.0,0.000000]': 722, '(0.000000,0.034483]': 149, '(0.034483,0.062500]': 146, '(0.062500,0.333333]': 146}
+sentLen_break_value {'(0.0,20.000000]': 332, '(20.000000,29.000000]': 298, '(29.000000,40.000000]': 272, '(40.000000,76.000000]': 261}
+tokenDensity_break_value {'(0.0,0.121951]': 292, '(0.121951,0.210526]': 295, '(0.210526,0.318182]': 289, '(0.318182,1.000000]': 287}
+rhoToken_break_value {'(0.0,0.000000]': 437, '(0.0,0.562000]': 700, '(0.562000,0.995000]': 680, '(0.999999,1.000000]': 314}
+rhoEntity_break_value {'(0.0,0.000000]': 462, '(0.000000,0.815000]': 252, '(0.815000,0.995000]': 225, '(0.995000,1.000000]': 224}
+tokenFreqRate_break_value {'(0.0,0.001000]': 583, '(0.001000,0.011000]': 521, '(0.011000,0.053000]': 518, '(0.053000,1.000000]': 509}
+spanFreqRate_break_value {'(0.0,0.000000]': 569, '(0.000000,0.020000]': 227, '(0.020000,0.288000]': 191, '(0.288000,1.000000]': 176}
+low_bounds [0.0, 0.121951, 0.210526, 0.318182]
+up_bounds [0.121951, 0.210526, 0.318182, 1.0]
+p_ranges ['(0.0,0.121951]', '(0.121951,0.210526]', '(0.210526,0.318182]', '(0.318182,1.000000]']
+total_count_entity 1163
+low_bounds [0.0, 0.0, 0.034483, 0.0625]
+up_bounds [0.0, 0.034483, 0.0625, 0.333333]
+p_ranges ['(0.0,0.000000]', '(0.000000,0.034483]', '(0.034483,0.062500]', '(0.062500,0.333333]']
+total_count_entity 1163
+low_bounds [0.0, 20.0, 29.0, 40.0]
+up_bounds [20.0, 29.0, 40.0, 76.0]
+p_ranges ['(0.0,20.000000]', '(20.000000,29.000000]', '(29.000000,40.000000]', '(40.000000,76.000000]']
+total_count_entity 1163
+low_bounds [0.0, 0.0, 0.02, 0.288]
+up_bounds [0.0, 0.02, 0.288, 1.0]
+p_ranges ['(0.0,0.000000]', '(0.000000,0.020000]', '(0.020000,0.288000]', '(0.288000,1.000000]']
+total_count_entity 1163
+entity_freq_uniform
+p_ranges_rhoToken ['(0.0,0.000000]', '(0.000000,0.020000]', '(0.020000,0.288000]', '(0.288000,1.000000]']
+low_bounds [0.0, 0.0, 0.562, 0.999999]
+up_bounds [0.0, 0.562, 0.995, 1.0]
+p_ranges ['(0.0,0.000000]', '(0.0,0.562000]', '(0.562000,0.995000]', '(0.999999,1.000000]']
+total_count_entity 2131
+low_bounds [0.0, 0.001, 0.011, 0.053]
+up_bounds [0.001, 0.011, 0.053, 1.0]
+p_ranges ['(0.0,0.001000]', '(0.001000,0.011000]', '(0.011000,0.053000]', '(0.053000,1.000000]']
+total_count_entity 2131
+pos_block_acc {'NNP\n1246': '89.57', 'JJ\n118': '87.29', 'POS\n23': '60.87', 'CD\n248': '89.92', 'IN\n39': '66.67', 'NN\n87': '59.77', 'NNS\n58': '82.76', 'DT\n109': '74.31', 'HYPH\n94': '89.36', 'RB\n24': '70.83', 'NNPS\n33': '87.88', '$\n14': '100.00'}
+letter_block_acc {'title\n1192': '88.67', 'lower\n548': '78.47', 'upper\n110': '91.82', 'digit\n113': '89.38', 'other\n168': '85.71'}
+num phoToken_block value_list 437
+num phoToken_block value_list 700
+num phoToken_block value_list 680
+num phoToken_block value_list 314
+phoToken_block_acc {'(0.0,0.000000]\n437': '75.06', '(0.0,0.562000]\n700': '79.43', '(0.562000,0.995000]\n680': '95.88', '(0.999999,1.000000]\n314': '94.59'}
+len(value_list) 583
+len(value_list) 521
+len(value_list) 518
+len(value_list) 509
+tokenFreq_block_acc {'(0.0,0.001000]\n583': '82.50', '(0.001000,0.011000]\n521': '85.41', '(0.011000,0.053000]\n518': '92.86', '(0.053000,1.000000]\n509': '83.69'}
+model_name CbertWnon_snonMlp_8690
+####################################################
+fn_test_results ner_results/longsent_results/notemz_CbertWnon_snonMlp_sent3_20790594_long2short_8718.txt
+corpus_type notemz
+tag_sequences_train ['O', 'O', 'O', 'O', 'B-NORP', 'I-NORP', 'I-NORP', 'O', 'O', 'B-DATE', 'I-DATE', 'I-DATE', 'B-DATE', 'I-DATE', 'O', 'O', 'B-CARDINAL', 'I-CARDINAL', 'O', 'O', 'B-GPE', 'O', 'O', 'B-FAC', 'I-FAC', 'O', 'O', 'O', 'O', 'B-GPE', 'O', 'O', 'B-GPE', 'O', 'O', 'O', 'O', 'O', 'B-PERCENT', 'I-PERCENT', 'O', 'O', 'O', 'O', 'O', 'O', 'O', 'B-CARDINAL', 'O', 'B-GPE', 'O', 'O', 'O', 'O', 'O', 'O', 'B-GPE', 'O', 'O', 'B-DATE', 'I-DATE', 'O', 'B-CARDINAL', 'O', 'O', 'O', 'B-GPE', 'O', 'B-GPE', 'O', 'O', 'O', 'O', 'O', 'O', 'O', 'O', 'O', 'B-CARDINAL', 'O']
+word_sequences_train ['After', 'the', 'Handover', ':', 'Taiwan', '-', 'Macau', 'Relations', 'in', 'the', 'New', 'Millennium', 'Last', 'year', ',', 'nearly', 'one', 'million', 'travelers', 'from', 'Taiwan', 'passed', 'through', 'Macau', 'Airport', ',', 'heading', 'for', 'mainland', 'China', 'or', 'visiting', 'Macau', 'itself', ',', 'and', 'accounting', 'for', '80', '%', 'of', 'passengers', 'using', 'the', 'airport', '.', 'Around', '1,000', 'of', 'Macau', "'s", 'civil', 'servants', 'have', 'studied', 'in', 'Taiwan', ',', 'and', 'every', 'year', 'some', '30,000', 'people', 'travel', 'from', 'Macau', 'to', 'Taiwan', 'for', 'business', 'or', 'work', ',', 'along', 'with', 'more', 'than', '400', 'students']
+corpus_type notemz
+mean_test_length: 22.944801026957638
+corpus_type notemz
+corpus_type notemz
+mode  
+corpus_type notemz
+load the hard dictionary of entity token in test set...
+load the hard dictionary of entity span in test set...
+load the hard dictionary of entity token in test set...
+load the hard dictionary of entity span in test set...
+type,total_ball entity 1163
+total_spanfreq_entity 0
+type,total_ball entity 1163
+total_spanfreq_entity 0
+type,total_ball entity 1163
+total_spanfreq_entity 0
+type,total_ball token 2131
+avg_pile_balls: 690.0
+type,total_ball entity 1163
+total_spanfreq_entity 0
+type,total_ball token 2131
+total_spanfreq_entity 0
+type,total_ball entity 1163
+total_spanfreq_entity 0
+oovDensity_break_value {'(0.0,0.000000]': 722, '(0.000000,0.034483]': 149, '(0.034483,0.062500]': 146, '(0.062500,0.333333]': 146}
+sentLen_break_value {'(0.0,20.000000]': 332, '(20.000000,29.000000]': 298, '(29.000000,40.000000]': 272, '(40.000000,76.000000]': 261}
+tokenDensity_break_value {'(0.0,0.121951]': 292, '(0.121951,0.210526]': 295, '(0.210526,0.318182]': 289, '(0.318182,1.000000]': 287}
+rhoToken_break_value {'(0.0,0.000000]': 437, '(0.0,0.562000]': 700, '(0.562000,0.995000]': 680, '(0.999999,1.000000]': 314}
+rhoEntity_break_value {'(0.0,0.000000]': 462, '(0.000000,0.815000]': 252, '(0.815000,0.995000]': 225, '(0.995000,1.000000]': 224}
+tokenFreqRate_break_value {'(0.0,0.001000]': 583, '(0.001000,0.011000]': 521, '(0.011000,0.053000]': 518, '(0.053000,1.000000]': 509}
+spanFreqRate_break_value {'(0.0,0.000000]': 569, '(0.000000,0.020000]': 227, '(0.020000,0.288000]': 191, '(0.288000,1.000000]': 176}
+low_bounds [0.0, 0.121951, 0.210526, 0.318182]
+up_bounds [0.121951, 0.210526, 0.318182, 1.0]
+p_ranges ['(0.0,0.121951]', '(0.121951,0.210526]', '(0.210526,0.318182]', '(0.318182,1.000000]']
+total_count_entity 1163
+low_bounds [0.0, 0.0, 0.034483, 0.0625]
+up_bounds [0.0, 0.034483, 0.0625, 0.333333]
+p_ranges ['(0.0,0.000000]', '(0.000000,0.034483]', '(0.034483,0.062500]', '(0.062500,0.333333]']
+total_count_entity 1163
+low_bounds [0.0, 20.0, 29.0, 40.0]
+up_bounds [20.0, 29.0, 40.0, 76.0]
+p_ranges ['(0.0,20.000000]', '(20.000000,29.000000]', '(29.000000,40.000000]', '(40.000000,76.000000]']
+total_count_entity 1163
+low_bounds [0.0, 0.0, 0.02, 0.288]
+up_bounds [0.0, 0.02, 0.288, 1.0]
+p_ranges ['(0.0,0.000000]', '(0.000000,0.020000]', '(0.020000,0.288000]', '(0.288000,1.000000]']
+total_count_entity 1163
+entity_freq_uniform
+p_ranges_rhoToken ['(0.0,0.000000]', '(0.000000,0.020000]', '(0.020000,0.288000]', '(0.288000,1.000000]']
+low_bounds [0.0, 0.0, 0.562, 0.999999]
+up_bounds [0.0, 0.562, 0.995, 1.0]
+p_ranges ['(0.0,0.000000]', '(0.0,0.562000]', '(0.562000,0.995000]', '(0.999999,1.000000]']
+total_count_entity 2131
+low_bounds [0.0, 0.001, 0.011, 0.053]
+up_bounds [0.001, 0.011, 0.053, 1.0]
+p_ranges ['(0.0,0.001000]', '(0.001000,0.011000]', '(0.011000,0.053000]', '(0.053000,1.000000]']
+total_count_entity 2131
+pos_block_acc {'NNP\n1246': '89.89', 'JJ\n118': '87.29', 'POS\n23': '65.22', 'CD\n248': '89.11', 'IN\n39': '61.54', 'NN\n87': '60.92', 'NNS\n58': '82.76', 'DT\n109': '73.39', 'HYPH\n94': '92.55', 'RB\n24': '79.17', 'NNPS\n33': '90.91', '$\n14': '100.00'}
+letter_block_acc {'title\n1192': '89.01', 'lower\n548': '78.47', 'upper\n110': '91.82', 'digit\n113': '89.38', 'other\n168': '85.71'}
+num phoToken_block value_list 437
+num phoToken_block value_list 700
+num phoToken_block value_list 680
+num phoToken_block value_list 314
+phoToken_block_acc {'(0.0,0.000000]\n437': '76.43', '(0.0,0.562000]\n700': '79.43', '(0.562000,0.995000]\n680': '95.74', '(0.999999,1.000000]\n314': '94.27'}
+len(value_list) 583
+len(value_list) 521
+len(value_list) 518
+len(value_list) 509
+tokenFreq_block_acc {'(0.0,0.001000]\n583': '84.05', '(0.001000,0.011000]\n521': '84.45', '(0.011000,0.053000]\n518': '93.24', '(0.053000,1.000000]\n509': '83.30'}
+model_name CbertWnonsnonMlp_longsent_nsent3_8718
+####################################################
+corpus_type: notemz
+###########################____select_buckets____#######################
+compare conll03_CbertWnon_snonMlp_sent10, model is: conll03_CbertWnon_snonMlp_sent1, conll03_CbertWnon_snonMlp_sent10...
+midx1, midx2 1 0
+seltAlwaysGood_m1: CbertWnonsnonMlp_longsent
+seltAlwaysGood_m2: CbertWnon_snonMlp
+model_names: ['CbertWnon_snonMlp_8690', 'CbertWnonsnonMlp_longsent_nsent3_8718']
+len(model1) 8
+metric_names: R-eDen
+list1:  ['87.33', '88.40', '85.95', '87.05']
+list2:  ['84.19', '87.96', '87.97', '85.86']
+
+detas_subs: [0.037296591044067, 0.0050022737608005, -0.02296237353643283, 0.013859771721406915]
+
+metric_names: R-oov
+list1:  ['89.59', '84.77', '82.67', '82.47']
+list2:  ['88.67', '83.83', '80.40', '84.91']
+
+detas_subs: [0.010375549791361247, 0.01121316950972203, 0.028233830845771093, -0.028736309033093838]
+
+metric_names: R-sLen
+list1:  ['87.07', '89.66', '84.14', '87.69']
+list2:  ['86.78', '86.93', '84.44', '87.82']
+
+detas_subs: [0.003341783821156857, 0.03140457839641079, -0.003552818569398356, -0.0014803006148940499]
+
+metric_names: MF-et
+list1:  ['79.06', '75.00', '95.56', '95.75']
+list2:  ['78.28', '70.47', '95.60', '95.73']
+
+detas_subs: [0.009964230965763939, 0.0642826734780758, -0.00041841004184092095, 0.00020892092343044]
+
+metric_names: F-ent
+list1:  ['83.17', '85.33', '93.33', '96.40']
+list2:  ['82.19', '83.83', '94.46', '95.84']
+
+detas_subs: [0.011923591677819735, 0.017893355600620303, -0.011962735549438868, 0.005843071786310541]
+
+metric_names: MF-tt
+list1:  ['76.43', '79.43', '95.74', '94.27']
+list2:  ['75.06', '79.43', '95.88', '94.59']
+
+detas_subs: [0.018252065014655004, 0.0, -0.0014601585314977115, -0.0033830214610424715]
+
+metric_names: F-tok
+list1:  ['84.05', '84.45', '93.24', '83.30']
+list2:  ['82.50', '85.41', '92.86', '83.69']
+
+detas_subs: [0.018787878787878753, -0.011239901650860482, 0.004092181779022135, -0.004660054964750873]
+
+metric_names: R-eLen
+list1:  ['88.45', '87.10', '79.50', '87.26']
+list2:  ['87.91', '82.81', '80.35', '88.96']
+
+detas_subs: [0.006142645887839908, 0.051805337519623136, -0.01057871810827622, -0.0191097122302157]
+
+min_sml_str: Cbert_long2short_min_sml_str_['L','XL','L','L','L','XL','S','XL']
+max_sml_str: Cbert_long2short_max_sml_str_['XS','L','S','S','S','XS','XS','S']
+fn_test_results ner_results/notebn_CbertWnon_snonMlp_8964.txt
+corpus_type notebn
+tag_sequences_train ['B-NORP', 'O', 'B-PERSON', 'I-PERSON', 'O', 'O', 'O', 'O', 'O', 'O', 'O', 'O', 'O', 'O', 'O', 'O', 'O', 'B-NORP', 'O', 'O', 'O', 'O', 'O', 'O', 'O', 'O', 'O', 'O', 'O', 'B-PERSON', 'O', 'O', 'O', 'O', 'O', 'B-ORG', 'I-ORG', 'I-ORG', 'I-ORG', 'O', 'O', 'O', 'O', 'O', 'O', 'O', 'O', 'O', 'B-NORP', 'O', 'O', 'O', 'O', 'O', 'O', 'O', 'O', 'O', 'O', 'B-GPE', 'O', 'O', 'O', 'O', 'O', 'O', 'O', 'O', 'O', 'O', 'O', 'O', 'O', 'O', 'O', 'O', 'O', 'O', 'O', 'O']
+word_sequences_train ['Lebanese', 'President', 'Emile', 'Lahoud', 'demanded', 'that', 'the', 'opposition', 'voices', 'who', 'are', 'calling', 'for', 'the', 'overthrow', 'of', 'the', 'Lebanese', 'government', 'demand', 'the', 'formation', 'of', 'a', 'national', 'unity', 'government', 'instead', '.', 'Lahoud', 'maintained', 'in', 'an', 'interview', 'with', 'the', 'Abu', 'Dhabi', 'Channel', ',', 'that', 'he', 'is', 'the', 'president', 'of', 'all', 'the', 'Lebanese', ',', 'is', 'entrusted', 'with', 'the', 'constitution', 'and', 'that', 'democracy', 'in', 'Lebanon', 'is', 'based', 'on', 'agreement', ',', 'and', 'in', 'order', 'to', 'resolve', 'the', 'current', 'crisis', ',', 'the', 'cabinet', 'has', 'to', 'be', 'based']
+corpus_type notebn
+mean_test_length: 19.472365512159175
+corpus_type notebn
+corpus_type notebn
+mode  
+corpus_type notebn
+load the hard dictionary of entity token in test set...
+load the hard dictionary of entity span in test set...
+load the hard dictionary of entity token in test set...
+load the hard dictionary of entity span in test set...
+type,total_ball entity 2429
+total_spanfreq_entity 0
+type,total_ball entity 2429
+total_spanfreq_entity 0
+type,total_ball entity 2429
+total_spanfreq_entity 0
+type,total_ball token 3943
+avg_pile_balls: 1315.5
+type,total_ball entity 2429
+total_spanfreq_entity 0
+type,total_ball token 3943
+total_spanfreq_entity 0
+type,total_ball entity 2429
+total_spanfreq_entity 0
+oovDensity_break_value {'(0.0,0.000000]': 2176, '(0.000000,0.027778]': 86, '(0.027778,0.050000]': 84, '(0.050000,0.250000]': 83}
+sentLen_break_value {'(0.0,16.000000]': 621, '(16.000000,24.000000]': 649, '(24.000000,34.000000]': 619, '(34.000000,85.000000]': 540}
+tokenDensity_break_value {'(0.0,0.142857]': 620, '(0.142857,0.214286]': 613, '(0.214286,0.314286]': 598, '(0.314286,0.736842]': 598}
+rhoToken_break_value {'(0.0,0.000000]': 609, '(0.0,0.653000]': 1319, '(0.653000,0.996000]': 1312, '(0.999999,1.000000]': 703}
+rhoEntity_break_value {'(0.0,0.000000]': 667, '(0.000000,0.865000]': 619, '(0.865000,1.000000]': 1143}
+tokenFreqRate_break_value {'(0.0,0.002000]': 1130, '(0.002000,0.012000]': 938, '(0.012000,0.045000]': 967, '(0.045000,1.000000]': 908}
+spanFreqRate_break_value {'(0.0,0.000000]': 685, '(0.000000,0.035000]': 590, '(0.035000,0.177000]': 577, '(0.177000,1.000000]': 577}
+low_bounds [0.0, 0.142857, 0.214286, 0.314286]
+up_bounds [0.142857, 0.214286, 0.314286, 0.736842]
+p_ranges ['(0.0,0.142857]', '(0.142857,0.214286]', '(0.214286,0.314286]', '(0.314286,0.736842]']
+total_count_entity 2429
+low_bounds [0.0, 0.0, 0.027778, 0.05]
+up_bounds [0.0, 0.027778, 0.05, 0.25]
+p_ranges ['(0.0,0.000000]', '(0.000000,0.027778]', '(0.027778,0.050000]', '(0.050000,0.250000]']
+total_count_entity 2429
+low_bounds [0.0, 16.0, 24.0, 34.0]
+up_bounds [16.0, 24.0, 34.0, 85.0]
+p_ranges ['(0.0,16.000000]', '(16.000000,24.000000]', '(24.000000,34.000000]', '(34.000000,85.000000]']
+total_count_entity 2429
+low_bounds [0.0, 0.0, 0.035, 0.177]
+up_bounds [0.0, 0.035, 0.177, 1.0]
+p_ranges ['(0.0,0.000000]', '(0.000000,0.035000]', '(0.035000,0.177000]', '(0.177000,1.000000]']
+total_count_entity 2429
+entity_freq_uniform
+p_ranges_rhoToken ['(0.0,0.000000]', '(0.000000,0.035000]', '(0.035000,0.177000]', '(0.177000,1.000000]']
+low_bounds [0.0, 0.0, 0.653, 0.999999]
+up_bounds [0.0, 0.653, 0.996, 1.0]
+p_ranges ['(0.0,0.000000]', '(0.0,0.653000]', '(0.653000,0.996000]', '(0.999999,1.000000]']
+total_count_entity 3943
+low_bounds [0.0, 0.002, 0.012, 0.045]
+up_bounds [0.002, 0.012, 0.045, 1.0]
+p_ranges ['(0.0,0.002000]', '(0.002000,0.012000]', '(0.012000,0.045000]', '(0.045000,1.000000]']
+total_count_entity 3943
+pos_block_acc {'DT\n260': '83.08', 'NNP\n2233': '91.13', 'NN\n253': '77.87', 'JJ\n351': '92.02', 'CD\n368': '85.60', 'NNS\n104': '78.85', 'HYPH\n68': '89.71', 'NNPS\n96': '97.92', 'RB\n47': '76.60', 'IN\n63': '84.13', 'JJS\n12': '100.00', '``\n10': '70.00', "''\n13": '69.23', 'POS\n25': '80.00'}
+letter_block_acc {'title\n2439': '91.31', 'lower\n1014': '82.54', 'upper\n166': '92.77', 'digit\n174': '86.21', 'other\n150': '80.67'}
+num phoToken_block value_list 609
+num phoToken_block value_list 1319
+num phoToken_block value_list 1312
+num phoToken_block value_list 703
+phoToken_block_acc {'(0.0,0.000000]\n609': '75.37', '(0.0,0.653000]\n1319': '84.08', '(0.653000,0.996000]\n1312': '94.36', '(0.999999,1.000000]\n703': '97.16'}
+len(value_list) 1130
+len(value_list) 938
+len(value_list) 967
+len(value_list) 908
+tokenFreq_block_acc {'(0.0,0.002000]\n1130': '86.11', '(0.002000,0.012000]\n938': '90.09', '(0.012000,0.045000]\n967': '91.11', '(0.045000,1.000000]\n908': '87.00'}
+model_name CbertWnon_snonMlp_8964
+####################################################
+fn_test_results ner_results/longsent_results/notebn_CbertWnon_snonMlp_sent4_39047785_long2short_9022.txt
+corpus_type notebn
+tag_sequences_train ['B-NORP', 'O', 'B-PERSON', 'I-PERSON', 'O', 'O', 'O', 'O', 'O', 'O', 'O', 'O', 'O', 'O', 'O', 'O', 'O', 'B-NORP', 'O', 'O', 'O', 'O', 'O', 'O', 'O', 'O', 'O', 'O', 'O', 'B-PERSON', 'O', 'O', 'O', 'O', 'O', 'B-ORG', 'I-ORG', 'I-ORG', 'I-ORG', 'O', 'O', 'O', 'O', 'O', 'O', 'O', 'O', 'O', 'B-NORP', 'O', 'O', 'O', 'O', 'O', 'O', 'O', 'O', 'O', 'O', 'B-GPE', 'O', 'O', 'O', 'O', 'O', 'O', 'O', 'O', 'O', 'O', 'O', 'O', 'O', 'O', 'O', 'O', 'O', 'O', 'O', 'O']
+word_sequences_train ['Lebanese', 'President', 'Emile', 'Lahoud', 'demanded', 'that', 'the', 'opposition', 'voices', 'who', 'are', 'calling', 'for', 'the', 'overthrow', 'of', 'the', 'Lebanese', 'government', 'demand', 'the', 'formation', 'of', 'a', 'national', 'unity', 'government', 'instead', '.', 'Lahoud', 'maintained', 'in', 'an', 'interview', 'with', 'the', 'Abu', 'Dhabi', 'Channel', ',', 'that', 'he', 'is', 'the', 'president', 'of', 'all', 'the', 'Lebanese', ',', 'is', 'entrusted', 'with', 'the', 'constitution', 'and', 'that', 'democracy', 'in', 'Lebanon', 'is', 'based', 'on', 'agreement', ',', 'and', 'in', 'order', 'to', 'resolve', 'the', 'current', 'crisis', ',', 'the', 'cabinet', 'has', 'to', 'be', 'based']
+corpus_type notebn
+mean_test_length: 19.472365512159175
+corpus_type notebn
+corpus_type notebn
+mode  
+corpus_type notebn
+load the hard dictionary of entity token in test set...
+load the hard dictionary of entity span in test set...
+load the hard dictionary of entity token in test set...
+load the hard dictionary of entity span in test set...
+type,total_ball entity 2429
+total_spanfreq_entity 0
+type,total_ball entity 2429
+total_spanfreq_entity 0
+type,total_ball entity 2429
+total_spanfreq_entity 0
+type,total_ball token 3943
+avg_pile_balls: 1315.5
+type,total_ball entity 2429
+total_spanfreq_entity 0
+type,total_ball token 3943
+total_spanfreq_entity 0
+type,total_ball entity 2429
+total_spanfreq_entity 0
+oovDensity_break_value {'(0.0,0.000000]': 2176, '(0.000000,0.027778]': 86, '(0.027778,0.050000]': 84, '(0.050000,0.250000]': 83}
+sentLen_break_value {'(0.0,16.000000]': 621, '(16.000000,24.000000]': 649, '(24.000000,34.000000]': 619, '(34.000000,85.000000]': 540}
+tokenDensity_break_value {'(0.0,0.142857]': 620, '(0.142857,0.214286]': 613, '(0.214286,0.314286]': 598, '(0.314286,0.736842]': 598}
+rhoToken_break_value {'(0.0,0.000000]': 609, '(0.0,0.653000]': 1319, '(0.653000,0.996000]': 1312, '(0.999999,1.000000]': 703}
+rhoEntity_break_value {'(0.0,0.000000]': 667, '(0.000000,0.865000]': 619, '(0.865000,1.000000]': 1143}
+tokenFreqRate_break_value {'(0.0,0.002000]': 1130, '(0.002000,0.012000]': 938, '(0.012000,0.045000]': 967, '(0.045000,1.000000]': 908}
+spanFreqRate_break_value {'(0.0,0.000000]': 685, '(0.000000,0.035000]': 590, '(0.035000,0.177000]': 577, '(0.177000,1.000000]': 577}
+low_bounds [0.0, 0.142857, 0.214286, 0.314286]
+up_bounds [0.142857, 0.214286, 0.314286, 0.736842]
+p_ranges ['(0.0,0.142857]', '(0.142857,0.214286]', '(0.214286,0.314286]', '(0.314286,0.736842]']
+total_count_entity 2429
+low_bounds [0.0, 0.0, 0.027778, 0.05]
+up_bounds [0.0, 0.027778, 0.05, 0.25]
+p_ranges ['(0.0,0.000000]', '(0.000000,0.027778]', '(0.027778,0.050000]', '(0.050000,0.250000]']
+total_count_entity 2429
+low_bounds [0.0, 16.0, 24.0, 34.0]
+up_bounds [16.0, 24.0, 34.0, 85.0]
+p_ranges ['(0.0,16.000000]', '(16.000000,24.000000]', '(24.000000,34.000000]', '(34.000000,85.000000]']
+total_count_entity 2429
+low_bounds [0.0, 0.0, 0.035, 0.177]
+up_bounds [0.0, 0.035, 0.177, 1.0]
+p_ranges ['(0.0,0.000000]', '(0.000000,0.035000]', '(0.035000,0.177000]', '(0.177000,1.000000]']
+total_count_entity 2429
+entity_freq_uniform
+p_ranges_rhoToken ['(0.0,0.000000]', '(0.000000,0.035000]', '(0.035000,0.177000]', '(0.177000,1.000000]']
+low_bounds [0.0, 0.0, 0.653, 0.999999]
+up_bounds [0.0, 0.653, 0.996, 1.0]
+p_ranges ['(0.0,0.000000]', '(0.0,0.653000]', '(0.653000,0.996000]', '(0.999999,1.000000]']
+total_count_entity 3943
+low_bounds [0.0, 0.002, 0.012, 0.045]
+up_bounds [0.002, 0.012, 0.045, 1.0]
+p_ranges ['(0.0,0.002000]', '(0.002000,0.012000]', '(0.012000,0.045000]', '(0.045000,1.000000]']
+total_count_entity 3943
+pos_block_acc {'DT\n260': '85.00', 'NNP\n2233': '92.03', 'NN\n253': '80.63', 'JJ\n351': '92.02', 'CD\n368': '86.41', 'NNS\n104': '78.85', 'HYPH\n68': '86.76', 'NNPS\n96': '97.92', 'RB\n47': '82.98', 'IN\n63': '90.48', 'JJS\n12': '100.00', '``\n10': '70.00', "''\n13": '69.23', 'POS\n25': '88.00'}
+letter_block_acc {'title\n2439': '92.41', 'lower\n1014': '84.12', 'upper\n166': '91.57', 'digit\n174': '86.78', 'other\n150': '81.33'}
+num phoToken_block value_list 609
+num phoToken_block value_list 1319
+num phoToken_block value_list 1312
+num phoToken_block value_list 703
+phoToken_block_acc {'(0.0,0.000000]\n609': '79.47', '(0.0,0.653000]\n1319': '85.67', '(0.653000,0.996000]\n1312': '94.28', '(0.999999,1.000000]\n703': '96.87'}
+len(value_list) 1130
+len(value_list) 938
+len(value_list) 967
+len(value_list) 908
+tokenFreq_block_acc {'(0.0,0.002000]\n1130': '87.70', '(0.002000,0.012000]\n938': '90.41', '(0.012000,0.045000]\n967': '91.83', '(0.045000,1.000000]\n908': '88.66'}
+model_name CbertWnonsnonMlp_longsent_nsent4_9022
+####################################################
+corpus_type: notebn
+###########################____select_buckets____#######################
+compare conll03_CbertWnon_snonMlp_sent10, model is: conll03_CbertWnon_snonMlp_sent1, conll03_CbertWnon_snonMlp_sent10...
+midx1, midx2 1 0
+seltAlwaysGood_m1: CbertWnonsnonMlp_longsent
+seltAlwaysGood_m2: CbertWnon_snonMlp
+model_names: ['CbertWnon_snonMlp_8964', 'CbertWnonsnonMlp_longsent_nsent4_9022']
+len(model1) 8
+metric_names: R-eDen
+list1:  ['89.35', '89.73', '89.22', '92.55']
+list2:  ['88.48', '88.87', '89.93', '90.82']
+
+detas_subs: [0.009832730560578552, 0.00967705637447957, -0.007895029467363594, 0.0190486676943405]
+
+metric_names: R-oov
+list1:  ['90.86', '79.31', '84.21', '90.91']
+list2:  ['90.16', '79.77', '83.53', '89.16']
+
+detas_subs: [0.007763975155279535, -0.005766578914378761, 0.008140787740931313, 0.019627635711081202]
+
+metric_names: R-sLen
+list1:  ['91.40', '92.25', '90.71', '85.90']
+list2:  ['90.71', '91.16', '90.18', '85.51']
+
+detas_subs: [0.007606658582295358, 0.01195699868363321, 0.005877134619649445, 0.0045608700736756]
+
+metric_names: MF-et
+list1:  ['79.65', '83.82', '93.80', '97.40']
+list2:  ['78.99', '80.59', '93.37', '96.68']
+
+detas_subs: [0.008355488036460449, 0.04007941431939434, 0.004605333618935339, 0.00744724865535787]
+
+metric_names: F-ent
+list1:  ['78.81', '93.83', '96.86', '94.28']
+list2:  ['78.33', '93.06', '96.17', '93.27']
+
+detas_subs: [0.00612792033703567, 0.008274231678486954, 0.00717479463450138, 0.01082877666988319]
+
+metric_names: MF-tt
+list1:  ['79.47', '85.67', '94.28', '96.87']
+list2:  ['75.37', '84.08', '94.36', '97.16']
+
+detas_subs: [0.05439830171155624, 0.018910561370123733, -0.0008478168715557259, -0.0029847673939892142]
+
+metric_names: F-tok
+list1:  ['87.70', '90.41', '91.83', '88.66']
+list2:  ['86.11', '90.09', '91.11', '87.00']
+
+detas_subs: [0.018464754383927574, 0.003552003552003476, 0.007902535396773118, 0.019080459770114903]
+
+metric_names: R-eLen
+list1:  ['91.97', '88.80', '87.45', '81.85']
+list2:  ['91.48', '88.46', '86.31', '78.41']
+
+detas_subs: [0.005356362046348873, 0.003843545105132302, 0.013208202989224893, 0.04387195510776684]
+
+min_sml_str: Cbert_long2short_min_sml_str_['L','S','Y','Y','Y','XL','Y','Y']
+max_sml_str: Cbert_long2short_max_sml_str_['XL','XL','S','S','XL','XS','XL','XL']
