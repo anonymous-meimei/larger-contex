@@ -14,7 +14,14 @@ codes for Larger-Context Tagging
 -  `pip3 install -r requirements.txt`
 
 ## 3.Run
-### `bow_seq-aggregator` 
+Take `bow_seq-aggregator` as an example.
+- Put the data in the `bow_seq-aggregator/data` and set the train, dev, and test set position by setting the `--train`, `--dev`, `--test`.
+- Setting the number of sentence for the current model. 
+
+
+Put the data in data/kairos with train, dev, and test
+
+
 
 ## 4.Datasets
 
