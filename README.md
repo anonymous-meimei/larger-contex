@@ -15,8 +15,10 @@ codes for Larger-Context Tagging
 
 ## 3.Run
 Take `bow_seq-aggregator` as an example.
-- Put the data in the `bow_seq-aggregator/data` and set the train, dev, and test set position by setting the `--train`, `--dev`, `--test`.
-- Setting the number of sentence for the current model. 
+- Put the data in the `bow_seq-aggregator/data` and set the train, dev, and test set location by setting the `--train`, `--dev`, `--test`.
+- Put the Non-contextualized pre-trained embeddings into the `bow_seq-aggregator/emb`, and set the location of the embeddings by setting the `--emb-fn`.
+- Setting the number of sentence for the current model by setting the `--value`.
+- After running `./run.sh`, the best model and the result of best model achieved will be saved in the `bow_seq-aggregator/models` and `bow_seq-aggregator/results` respectively.
 
 
 Put the data in data/kairos with train, dev, and test
